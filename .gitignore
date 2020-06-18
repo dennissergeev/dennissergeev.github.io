@@ -1,2 +1,7 @@
 _site/
-
+Gemfile.lock
+.*~
+.*.swp
+__pycache__
+*.pyc
+.ipynb_checkpoints
