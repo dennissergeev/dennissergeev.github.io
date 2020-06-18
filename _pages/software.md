@@ -6,7 +6,7 @@ redirect_from:
   - /software.html
 ---
 
-My research involves processing model output and observational data.
+My research involves processing a model data output.
 This requires writing code, some of which I develop as open-source packages.
-Most of my code can be found on 
-<a href="https://github.com/dennissergeev">{{ fa("github") }} Github</a>.
+I also have a few fun side projects.
+Most of my code can be found on <a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a>.
