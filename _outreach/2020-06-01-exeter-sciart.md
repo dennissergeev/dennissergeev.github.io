@@ -6,6 +6,8 @@ permalink: /outreach/2020-06-01-exeter-sciart
 venue: Exeter Science Centre
 collection: outreach
 type: "Graphics"
+header:
+  teaser: exescicen2020.png
 ---
 
 
