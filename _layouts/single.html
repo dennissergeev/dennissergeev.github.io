@@ -48,6 +48,10 @@ layout: default
         {% elsif page.citation %}
           <p>Recommended citation: {{ page.citation }} </p>
         {% endif %}
+
+        {% if page.repository %}
+          <p>Code repository: <a href="https://github.com/{{ page.repository }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i>{{ page.repository }}</a></p>
+        {% endif %}
     
         </header>
       {% endunless %}

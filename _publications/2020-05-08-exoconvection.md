@@ -36,8 +36,8 @@ In other words, models with parameterized convection may overestimate the inter-
 
 # Relevant talks
 
-* [/talks/2020-04-21-nasagiss]
-* [/talks/2019-08-13-exoclimes]
+* [NASA GISS seminar](/talks/2020-04-21-nasagiss)
+* [Exoclimes V](/talks/2019-08-13-exoclimes)
 
 # Bibtex
 
