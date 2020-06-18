@@ -82,15 +82,18 @@ analytics:
 author:
   name             : "Dr. Denis Sergeev"
   avatar           : "profile.png"
-  bio              : "Atmospheric scientist at the University of Exeter"
-  location         : "Exeter, UK"
-  employer         :
+  bio              : "Postdoctoral research fellow"
+  location         :
+  employer         : "University of Exeter"
+  work_uri         : "http://emps.exeter.ac.uk/mathematics/staff/ds591"
   pubmed           :
   googlescholar    : "https://scholar.google.co.uk/citations?hl=en&user=_TPM1CcAAAAJ&view_op=list_works&sortby=pubdate"
   email            :
-  github           : "dennissergeev"
   researchgate     : "https://www.researchgate.net/profile/Denis_Sergeev2"
+  mendeley         : "dennis-sergeev" 
+  publons          : "1518453/denis-sergeev"
   uri              :
+  github           : "dennissergeev"
   bitbucket        : "dennissergeev"
   codepen          :
   dribbble         :
