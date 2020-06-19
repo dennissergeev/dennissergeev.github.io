@@ -47,6 +47,9 @@
       {% if author.googlescholar %}
         <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar ai-fw"></i> Google Scholar</a></li>
       {% endif %}
+      {% if author.adsabs %}
+        <li><a href="{{ author.adsabs }}"><i class="ai ai-ads ai-fw"></i> NASA/ADS</a></li>
+      {% endif %}
       {% if author.publons %}
         <li><a href="https://publons.com/researcher/{{ author.publons }}"><i class="ai ai-publons ai-fw"></i> Publons</a></li>
       {% endif %}
