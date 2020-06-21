@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curricilum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,7 +11,7 @@ redirect_from:
 
 <a href="/files/cv-sergeev-full.pdf"><i class="ai ai-cv-square ai-fw"></i>Download my full CV in PDF</a>
 
-# Education
+## Education
 * PhD in Meteorology, University of East Anglia, 2018
   - Years: 2014-2018
   - Location: University of East Anglia, Norwich, UK
@@ -37,27 +37,27 @@ redirect_from:
      - Energy and vorticity budgets
   - Download a copy (in Russian): [10.6084/m9.figshare.5326846.v1](https://doi.org/10.6084/m9.figshare.5326846.v1)
 
-# Publications
+## Lead-author publications
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-# Talks
+## Selected talks
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-# Teaching
+## Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-# Outreach
+## Outreach
   <ul>{% for post in site.outreach reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-# Software
+## Software
   <ul>{% for post in site.software reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
