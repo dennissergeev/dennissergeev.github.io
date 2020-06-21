@@ -188,7 +188,7 @@ ax.tick_params(labelsize=16)
 ```
 
 
-![png](../images/2017-09-05-scopus-article-metrics_files/2017-09-05-scopus-article-metrics_32_0.png)
+![png](/images/2017-09-05-scopus-article-metrics_files/2017-09-05-scopus-article-metrics_32_0.png)
 
 
 Apparently, the winner among these is the publication by [Condron et al. (2006)](http://journals.ametsoc.org/doi/abs/10.1175/MWR3136.1) with 53 citations, at least according to Scopus records.
@@ -228,4 +228,4 @@ print(df.sort_values('year').to_latex())
 
 Some rights reserved. This work permits non-commercial use, distribution, and reproduction in any medium, provided the original author and source are credited.
 
-This post was written as an Jupyter Notebook. You can view or download it using [nbviewer](http://nbviewer.ipython.org/github/dennissergeev/dennissergeev.github.io/blob/src/blog/_notebooks/2017-09-05-scopus-article-metrics.ipynb)
+This post was written as an Jupyter Notebook. You can view or download it using [nbviewer](http://nbviewer.ipython.org/github/dennissergeev/dennissergeev.github.io/blob/master/_blog/_notebooks/2017-09-05-scopus-article-metrics.ipynb)

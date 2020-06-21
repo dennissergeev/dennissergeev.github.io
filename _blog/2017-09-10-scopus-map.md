@@ -337,4 +337,4 @@ Note that some old DOIs do not work properly, so you can just google them.
 
 *Some rights reserved. This work permits non-commercial use, distribution, and reproduction in any medium, provided the original author and source are credited.*
 
-This post was written as an Jupyter Notebook. You can view or download it using [nbviewer](http://nbviewer.ipython.org/github/dennissergeev/dennissergeev.github.io/blob/src/blog/_notebooks/2017-09-10-scopus-map.ipynb)
+This post was written as an Jupyter Notebook. You can view or download it using [nbviewer](http://nbviewer.ipython.org/github/dennissergeev/dennissergeev.github.io/blob/master/_blog/_notebooks/2017-09-10-scopus-map.ipynb)

@@ -329,7 +329,7 @@ plt.tight_layout() # Get it together. Layout improves, which is especially impor
 ```
 
 
-![png](../images/2015-08-06-table-to-barplot_files/2015-08-06-table-to-barplot_20_0.png)
+![png](/images/2015-08-06-table-to-barplot_files/2015-08-06-table-to-barplot_20_0.png)
 
 
-This post was written as an Jupyter Notebook. You can view or download it using [nbviewer](http://nbviewer.ipython.org/github/dennissergeev/dennissergeev.github.io/blob/src/blog/_notebooks/2015-08-06-table-to-barplot.ipynb)
+This post was written as an Jupyter Notebook. You can view or download it using [nbviewer](http://nbviewer.ipython.org/github/dennissergeev/dennissergeev.github.io/blob/master/_blog/_notebooks/2015-08-06-table-to-barplot.ipynb)

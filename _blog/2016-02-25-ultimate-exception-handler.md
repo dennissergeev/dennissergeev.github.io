@@ -33,4 +33,4 @@ except Exception as e: # note the Python 3 syntax
 
 The function will construct a search query string and open the resulting url in a new tab of the default browser.
 
-This post was written as an Jupyter Notebook. You can view or download it using [nbviewer](http://nbviewer.ipython.org/github/dennissergeev/dennissergeev.github.io/blob/src/blog/_notebooks/2016-02-25-ultimate-exception-handler.ipynb)
+This post was written as an Jupyter Notebook. You can view or download it using [nbviewer](http://nbviewer.ipython.org/github/dennissergeev/dennissergeev.github.io/blob/master/_blog/_notebooks/2016-02-25-ultimate-exception-handler.ipynb)

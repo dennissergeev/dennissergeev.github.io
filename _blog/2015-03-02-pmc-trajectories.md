@@ -13,7 +13,7 @@ tags:
 
 **Tools:** Python 2.7.6, Matplotlib 1.4.2 (Basemap, dates, LineCollection, pyplot), optional - Pandas
     
-Using [the script](/blog/2015-01-22-satviewer.html) that I wrote before, I tracked all the polar mesoscale cyclones (**PMC**) over the Nordic Seas that were distinguishable in the AVHRR satellite images during the ACCACIA campaign. After this highly subjective work I decided to plot the resulting locations of the polar lows at the corresponding time moments.
+Using [the script](/blog/2015-01-22-satviewer) that I wrote before, I tracked all the polar mesoscale cyclones (**PMC**) over the Nordic Seas that were distinguishable in the AVHRR satellite images during the ACCACIA campaign. After this highly subjective work I decided to plot the resulting locations of the polar lows at the corresponding time moments.
 
 Below are bits of code that I used to fiddle with Python’s matplotlib module to create this mess:
 
@@ -389,7 +389,7 @@ cb.ax.tick_params(labelsize=20)
 ```
 
 
-![png](../images/2015-03-02-pmc-trajectories_files/2015-03-02-pmc-trajectories_31_0.png)
+![png](/images/2015-03-02-pmc-trajectories_files/2015-03-02-pmc-trajectories_31_0.png)
 
 
 *Polar mesoscale cyclones trajectories coloured by their time. Closed circles denote the first occurrence, open circles – the last occurrence in the satellite imagery. PMC \#15 is marked by a bold green line and also appears in the table below.*
@@ -437,9 +437,9 @@ for j, lab in enumerate(['N','E','S','W','N']):
 ```
 
 
-![png](../images/2015-03-02-pmc-trajectories_files/2015-03-02-pmc-trajectories_35_0.png)
+![png](/images/2015-03-02-pmc-trajectories_files/2015-03-02-pmc-trajectories_35_0.png)
 
 
 Looks a bit ugly, but whatever...
 
-This post was written as an Jupyter Notebook. You can view or download it using [nbviewer](http://nbviewer.ipython.org/github/dennissergeev/dennissergeev.github.io/blob/src/blog/_notebooks/2015-03-02-pmc-trajectories.ipynb)
+This post was written as an Jupyter Notebook. You can view or download it using [nbviewer](http://nbviewer.ipython.org/github/dennissergeev/dennissergeev.github.io/blob/master/_blog/_notebooks/2015-03-02-pmc-trajectories.ipynb)

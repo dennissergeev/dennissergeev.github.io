@@ -268,7 +268,7 @@ _ = [ax.plot(i, j,
 ```
 
 
-![png](../images/2015-11-15-dissecting-patricia_files/2015-11-15-dissecting-patricia_57_0.png)
+![png](/images/2015-11-15-dissecting-patricia_files/2015-11-15-dissecting-patricia_57_0.png)
 
 
 The eye of the storm is barely distinguishable at 105W, but it can be seen that CloudSat's orbit path goes 1-2 degrees to the west of it.
@@ -423,11 +423,11 @@ newax_dist = add_xaxis_below(ax, llticks,['{0:3.0f} km'.format(i) for i in np.cu
 ```
 
 
-![png](../images/2015-11-15-dissecting-patricia_files/2015-11-15-dissecting-patricia_76_0.png)
+![png](/images/2015-11-15-dissecting-patricia_files/2015-11-15-dissecting-patricia_76_0.png)
 
 
 The figure shows multiple convective plumes in the southern (left) part of the cross-section, which occurred on the periphery of hurricane Patricia. Further to the north CloudSat's radar probed a vigorous band of clouds developing up to 16 km and manifesting themselves by radar reflectivity reaching ~20 dBZ at heights about 6 km.
 
 It would be interesting to complement this plot with other CloudSat products and CALIPSO backscatter data. Well, maybe in another post.
 
-This post was written as an Jupyter Notebook. You can view or download it using [nbviewer](http://nbviewer.ipython.org/github/dennissergeev/dennissergeev.github.io/blob/src/blog/_notebooks/2015-11-15-dissecting-patricia.ipynb)
+This post was written as an Jupyter Notebook. You can view or download it using [nbviewer](http://nbviewer.ipython.org/github/dennissergeev/dennissergeev.github.io/blob/master/_blog/_notebooks/2015-11-15-dissecting-patricia.ipynb)

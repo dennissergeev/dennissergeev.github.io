@@ -363,4 +363,4 @@ SatView(file_name_sat)(lon_min,lon_max,lat_min,lat_max)
 
 The imagery is in visible/thermal spectrum (channels 2/4), made by AVHRR on board of MetOp-B satellite. Data are courtesy of [Dundee Satellite Receiving Station](http://www.sat.dundee.ac.uk/abin/browseleaf?s=avhrr).
 
-This post was written as an Jupyter Notebook. You can view or download it using [nbviewer](http://nbviewer.ipython.org/github/dennissergeev/dennissergeev.github.io/blob/src/blog/_notebooks/2015-01-22-satviewer.ipynb)
+This post was written as an Jupyter Notebook. You can view or download it using [nbviewer](http://nbviewer.ipython.org/github/dennissergeev/dennissergeev.github.io/blob/master/_blog/_notebooks/2015-01-22-satviewer.ipynb)

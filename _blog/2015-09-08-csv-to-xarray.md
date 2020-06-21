@@ -181,4 +181,4 @@ If you are interested in the data, you should check out this paper:
 
 Cook, P. A. and I. A. Renfrew, 2015: Aircraft-based observations of air-sea turbulent fluxes around the British Isles, *Quarterly J. Royal Meteorol. Soc.*,**141**, 139-152. doi: [10.1002/qj.2345](http://www.uea.ac.uk/~e046/reprints/cook_renfrew_diamet_fluxes_qj2345_QJRMS_2014.pdf)
 
-This post was written as an Jupyter Notebook. You can view or download it using [nbviewer](http://nbviewer.ipython.org/github/dennissergeev/dennissergeev.github.io/blob/src/blog/_notebooks/2015-09-08-csv-to-xarray.ipynb)
+This post was written as an Jupyter Notebook. You can view or download it using [nbviewer](http://nbviewer.ipython.org/github/dennissergeev/dennissergeev.github.io/blob/master/_blog/_notebooks/2015-09-08-csv-to-xarray.ipynb)
