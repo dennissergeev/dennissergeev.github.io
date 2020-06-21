@@ -166,11 +166,7 @@ What is the time of the MODIS measurements? One way of getting it is to use the 
 datetime.datetime(1993,1,1) + datetime.timedelta(seconds=np.mean(mod_geo['EV center time']))
 ```
 
-
-
-
     datetime.datetime(2015, 10, 23, 20, 37, 39, 732807)
-
 
 
 But probably it is easier to do by parsing the file name, since it contains the time stamp.
@@ -299,15 +295,7 @@ ax.set_xlabel('Time', fontsize=14)
 ax.set_ylabel('Level indices', fontsize=14)
 ```
 
-
-
-
-    <matplotlib.text.Text at 0x7f9538e15110>
-
-
-
-
-![png](../images/2015-11-15-dissecting-patricia_files/2015-11-15-dissecting-patricia_65_1.png)
+![png](/images/2015-11-15-dissecting-patricia_files/2015-11-15-dissecting-patricia_65_1.png)
 
 
 Therefore, I need to define a grid to regrid the original data.
