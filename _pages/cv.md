@@ -32,14 +32,15 @@ redirect_from:
   - Supervisor: Dr. Victor M. Stepanenko
   - Download a copy (in Russian): [10.6084/m9.figshare.5326846.v1](https://doi.org/10.6084/m9.figshare.5326846.v1)
 
-## Lead-author publications
+## Publications
+### Lead-author
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-## Co-authored publications
-
-{% bibliography %}
+### Co-authored
+{% bibliography --max 10 -q @*[author_0_last != {{ site.author.lastname }} ] %}
+<!--  -->
 
   
 ## Selected talks

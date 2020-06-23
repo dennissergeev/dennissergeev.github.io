@@ -81,6 +81,9 @@ analytics:
 # Site Author
 author:
   name             : "Dr. Denis Sergeev"
+  firstname        : "Denis"
+  middlename       : "E."
+  lastname         : "Sergeev"
   avatar           : "profile.png"
   bio              : "Postdoctoral research fellow"
   email            :
@@ -162,6 +165,7 @@ scholar:
   bibliography: my_publications.bib
   sort_by: year,month
   order: descending
+  bibliography_template: bib
   
 
 # Conversion
@@ -298,6 +302,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-scholar
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -305,6 +310,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-scholar
 
 
 # Archives
