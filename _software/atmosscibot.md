@@ -5,6 +5,9 @@ permalink: /software/atmosscibot
 language: Python
 repository: dennissergeev/atmosscibot
 website: https://twitter.com/AtmosSciBot
+tags:
+  - python
+  - twitter
 ---
 
 [![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg?logo=python&logoColor=white)](https://www.python.org/downloads/)

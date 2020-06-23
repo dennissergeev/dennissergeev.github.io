@@ -7,6 +7,7 @@ tags:
   - matplotlib
   - meteorology
   - satellite
+  - polar low
 ---
 
 **Task:** plot several trajectories on a map, colour them according to date and time, create a common colorbar

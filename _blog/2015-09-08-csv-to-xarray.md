@@ -1,5 +1,5 @@
 ---
-title: "Exercise in converting a CSV file to NetCDF using xarray"
+title: "Exercise in converting a CSV file to netCDF using xarray"
 date: 2015-09-08
 permalink: /blog/2015/09/08/csv-to-xarray
 tags:
@@ -29,7 +29,7 @@ Converting this script to Python was pretty trivial, and I had used this interfa
 
 `print(flx.wind_speed) # 1D array of wind speed values`
 
-But then I got tired of only the values being accessible, but not the description and units that resided in the comments inside the script. The obvious way to was to convert two files: data and reading script into a NetCDF file. Plus, the `xray` package had been gaining popularity. So below is my little exercise in data I/O using the modern NetCDF handler.
+But then I got tired of only the values being accessible, but not the description and units that resided in the comments inside the script. The obvious way to was to convert two files: data and reading script into a NetCDF file. Plus, the `xarray` package had been gaining popularity. So below is my little exercise in data I/O using the modern NetCDF handler.
 
 To begin with, I load necessary modules
 
@@ -153,7 +153,7 @@ for i in values_and_names:
     values_and_names[i]['long_name'] = s[:len(s)-iend-1]
 ```
 
-With the help of `xray` package documentation, I rearranged the dictionary into another dictionary of tuples.
+With the help of `xarray` package documentation, I rearranged the dictionary into another dictionary of tuples.
 
 ```python
 variables = dict()
@@ -164,7 +164,7 @@ for i in values_and_names:
                     dict(units=values_and_names[i]['units'], long_name=values_and_names[i]['long_name']))
 ```
 
-Why did I do that? Now the data and metadata is packed in a structure that is digestible for [`xray.Dataset`](http://xray.readthedocs.org/en/stable/data-structures.html#creating-a-dataset). The only coordinate is time, and is defined by the same keyword. The great thing is that `pandas` parsed the time strings for me and already converted them to a `datetime64` object.
+Why did I do that? Now the data and metadata is packed in a structure that is digestible for `xarray.Dataset`. The only coordinate is time, and is defined by the same keyword. The great thing is that `pandas` parsed the time strings for me and already converted them to a `datetime64` object.
 
 ```python
 ds = xarray.Dataset(variables=variables,

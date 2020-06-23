@@ -5,7 +5,7 @@ permalink: /blog/2017/09/05/scopus-article-metrics
 tags:
   - python
   - scopus
-  - map
+  - polar low
 ---
 
 I was summarising the literature review for one of the chapters of my PhD thesis in a form of a table, when I thought about sorting it by the number of times each reference has been cited. These metadata are not static and so are usually not stored in reference managing software (e.g. [Mendeley](https://www.mendeley.com)) or BibTeX files.

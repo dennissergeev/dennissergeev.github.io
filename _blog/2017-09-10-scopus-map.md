@@ -5,7 +5,7 @@ permalink: /blog/2017/09/10/scopus-map
 tags:
   - python
   - scopus
-  - map
+  - polar low
 ---
 
 This Sunday I had nothing better to do than to continue my [previous post](2017-09-05-scopus-article-metrics.html) on using Scopus API to mine scientific publications' metadata. Maybe this will warm me up for some thesis writing?..

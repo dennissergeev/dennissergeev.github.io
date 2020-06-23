@@ -7,6 +7,7 @@ tags:
   - matplotlib
   - meteorology
   - satellite
+  - polar low
 ---
 
 **Task:** read a GeoTiff satellite image, place it on a map, make the plot interactive

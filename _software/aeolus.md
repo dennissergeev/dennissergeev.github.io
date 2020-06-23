@@ -4,6 +4,10 @@ collection: software
 permalink: /software/aeolus
 language: Python
 repository: exoclim/aeolus
+tags:
+  - python
+  - iris
+  - Unified Model
 ---
 
 [![Python 3.7 | 3.8](https://img.shields.io/badge/python-3.7%20%7C%203.8-blue.svg?logo=python&logoColor=white)](https://www.python.org/downloads/)

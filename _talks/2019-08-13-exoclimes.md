@@ -6,6 +6,10 @@ permalink: /talks/2019-08-13-exoclimes
 venue: "Exoclimes V"
 date: 2019-08-13
 location: "Oxford, UK"
+tags:
+  - exoplanet
+  - convection
+  - Unified Model
 ---
 
 On extrasolar planets, many aspects of non-rotating atmospheric dynamics, such as convection, play a crucial role in determining circulation regimes and ultimately their potential habitability. A few previous studies have already hinted at the importance of choosing the convective parameterisation scheme for correct estimates of the onset of runaway greenhouse effect on exoplanets.

@@ -8,6 +8,10 @@ venue: Astrophysical Journal
 paperurl: 'https://doi.org/10.3847/1538-4357/ab8882'
 repository: dennissergeev/exoconvection-apj-2020
 citation: 'Sergeev, D.E., F.H. Lambert, N.J. Mayne, I.A. Boutle, J. Manners and K. Kohary. 2020. Atmospheric convection plays a key role in the climate of tidally-locked terrestrial exoplanets: insights from high-resolution simulations. Astrophysical Journal, 894, 84.'
+tags:
+  - exoplanet
+  - convection
+  - Unified Model
 ---
 
 # About

@@ -4,6 +4,10 @@ collection: software
 permalink: /software/octant
 language: Python
 repository: dennissergeev/octant
+tags:
+  - python
+  - polar low
+  - reanalysis
 ---
 
 [![Python 3.6 | 3.7](https://img.shields.io/badge/python-3.6%20%7C%203.7-blue.svg?logo=python&logoColor=white)](https://www.python.org/downloads/)
