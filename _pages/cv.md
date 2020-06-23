@@ -38,11 +38,6 @@ redirect_from:
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-### Co-authored
-{% bibliography --max 10 -q @*[author_0_last != {{ site.author.lastname }} ] %}
-<!--  -->
-
-  
 ## Selected talks
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html %}
