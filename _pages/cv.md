@@ -37,7 +37,10 @@ redirect_from:
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-<!--## Co-authored publications-->
+## Co-authored publications
+
+{% bibliography %}
+
   
 ## Selected talks
   <ul>{% for post in site.talks reversed %}

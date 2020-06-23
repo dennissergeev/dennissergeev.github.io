@@ -157,6 +157,13 @@ encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
+# Scholar
+scholar:
+  bibliography: my_publications.bib
+  sort_by: year,month
+  order: descending
+  
+
 # Conversion
 markdown: kramdown
 highlighter: rouge
