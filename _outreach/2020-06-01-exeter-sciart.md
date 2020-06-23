@@ -8,6 +8,8 @@ collection: outreach
 type: "Graphics"
 header:
   teaser: exescicen2020.png
+tags:
+  - exoplanet
 ---
 
 [![Science as Art exhibition](/images/exescicen2020.png)](https://exetersciencecentre.org/gallery/denis_sergeev_uoe_exoplanets)
