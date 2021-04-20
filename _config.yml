@@ -95,7 +95,6 @@ author:
   adsabs           : "https://ui.adsabs.harvard.edu/search/q=((author%3A%22sergeev%2C%20denis%22)%20AND%20pubdate%3A%5B2014-01%20TO%209999-12%5D%20AND%20full%3A(%22exoplanet%22%20OR%20%22polar%20low%22%20OR%20%22high-latitude%20dynamics%22%20OR%20%22bora%22%20OR%20%22subgrid-scale%20vegetation%22))&sort=date%20desc%2C%20bibcode%20desc&p_=0"
   arxiv            : "https://arxiv.org/search/astro-ph?query=Sergeev%2C+D&searchtype=author&abstracts=show&order=-announced_date_first&size=50"
   researchgate     : "https://www.researchgate.net/profile/Denis_Sergeev2"
-  mendeley         : "dennis-sergeev" 
   publons          : "1518453/denis-sergeev"
   semanticscholar  : "https://www.semanticscholar.org/author/D.-Sergeev/93026299"
   uri              :
