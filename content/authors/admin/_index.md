@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Denis Sergeev (he/him)
+title: Denis Sergeev
 
 # Full name (for SEO)
 first_name: Denis
