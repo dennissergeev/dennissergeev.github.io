@@ -125,7 +125,7 @@ sections:
       text: |-
         Feel free to contact me! 
       # Contact (add or remove contact options as necessary)
-      email: d [dot] sergeev [at] exeter.ac.uk
+      email: d.sergeev@exeter.ac.uk
       # phone: 888 888 88 88
       # appointment_url: 'https://calendly.com'
       address:
