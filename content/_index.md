@@ -125,7 +125,7 @@ sections:
       text: |-
         Feel free to contact me! 
       # Contact (add or remove contact options as necessary)
-      email: d.sergeev@exeter.ac.uk
+      email: d [dot] sergeev [at] exeter.ac.uk
       # phone: 888 888 88 88
       # appointment_url: 'https://calendly.com'
       address:
@@ -137,7 +137,7 @@ sections:
         country_code: UK
       directions: Enter the Physics Building and take the stairs or the lift to Office 509 on Floor 5.
       # Automatically link email and phone or display as text?
-      autolink: true
+      autolink: false
       # Email form provider
       # form:
       #   provider: netlify
