@@ -48,27 +48,41 @@ social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/meteodenny
-    label: Follow me on Twitter
-    display:
-      header: true
-  - icon: google-scholar # Alternatively, use `graduation-cap` icon from `fas` icon pack
-    icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=_TPM1CcAAAAJ&view_op=list_works&sortby=pubdate
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/dennissergeev
-  - icon: orcid
-    icon_pack: ai
-    link: https://orcid.org/0000-0001-8832-5288
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
     link: uploads/sergeev-cv-full.pdf
+  - icon: google-scholar # Alternatively, use `graduation-cap` icon from `fas` icon pack
+    icon_pack: ai
+    link: https://scholar.google.co.uk/citations?user=_TPM1CcAAAAJ&view_op=list_works&sortby=pubdate
+  - icon: orcid
+    icon_pack: ai
+    link: https://orcid.org/0000-0001-8832-5288
+  - icon: ads
+    icon_pack: ai
+    link: https://ui.adsabs.harvard.edu/user/libraries/2IT653szTA-gYw3vyA-9Sw
+  - icon: arxiv
+    icon_pack: ai
+    link: https://arxiv.org/search/astro-ph?query=Sergeev%2C+D&searchtype=author&abstracts=show&order=-announced_date_first&size=50
+  - icon: researchgate 
+    icon_pack: ai
+    link: https://www.researchgate.net/profile/Denis_Sergeev2
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/dennissergeev
+  - icon: stack-overflow
+    icon_pack: fab
+    link: https://www.stackoverflow.com/users/5365232/denis-sergeev
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/meteodenny
+    label: Follow me on Twitter
+  - icon: mastodon
+    icon_pack: fab
+    link: https://fediscience.org/@meteodenny
+    label: Follow me on Mastodon
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
