@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Denis Sergeev
+title: Denis Sergeev (he/him)
 
 # Full name (for SEO)
 first_name: Denis
@@ -8,7 +8,7 @@ last_name: Sergeev
 
 # Status emoji
 status:
-  icon: he/him
+  icon:
 
 # Is this the primary user of the site?
 superuser: true
