@@ -112,6 +112,19 @@ sections:
     design:
       columns: '2'
       view: compact
+  - block: portfolio
+    id: outreach
+    content:
+      title: Outreach
+      filters:
+        folders:
+          - outreach
+    design:
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '1'
+      view: showcase
+      # For Showcase view, flip alternate rows?
+      flip_alt_rows: false
   - block: tag_cloud
     content:
       title: Popular Topics
