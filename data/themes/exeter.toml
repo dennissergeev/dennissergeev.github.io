@@ -1,0 +1,23 @@
+# Theme metadata
+name = "Exeter"
+
+[light]
+  # Primary
+  primary = "#007d69"
+
+  # Menu
+  menu_primary = "#003c3c"
+  menu_text = "#dddddd"
+  menu_text_active = "#ffffff"
+  menu_title = "#00dca5"
+
+  # Home sections
+  home_section_odd = "#ffffff"
+  home_section_even = "#fefefe"
+
+[dark]
+  # Primary
+  primary = "#00c896"
+
+  link = "#00c896"
+  link_hover = "#00dca5"
