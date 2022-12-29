@@ -53,7 +53,7 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/sergeev-cv-full.pdf
+    link: https://github.com/dennissergeev/cv/raw/build/sergeev_cv_full.pdf
   - icon: google-scholar # Alternatively, use `graduation-cap` icon from `fas` icon pack
     icon_pack: ai
     link: https://scholar.google.co.uk/citations?user=_TPM1CcAAAAJ&view_op=list_works&sortby=pubdate
