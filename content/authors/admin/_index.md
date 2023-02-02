@@ -62,7 +62,7 @@ social:
     link: https://orcid.org/0000-0001-8832-5288
   - icon: ads
     icon_pack: ai
-    link: https://ui.adsabs.harvard.edu/user/libraries/2IT653szTA-gYw3vyA-9Sw
+    link: https://ui.adsabs.harvard.edu/public-libraries/2IT653szTA-gYw3vyA-9Sw
   - icon: arxiv
     icon_pack: ai
     link: https://arxiv.org/search/astro-ph?query=Sergeev%2C+D&searchtype=author&abstracts=show&order=-announced_date_first&size=50
