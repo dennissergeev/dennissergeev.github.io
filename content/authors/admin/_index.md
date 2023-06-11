@@ -22,7 +22,7 @@ organizations:
     url: http://emps.exeter.ac.uk/mathematics/staff/ds591
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include planetary atmospheres and climate modelling. 
+bio: My research is in planetary atmospheres and climate modelling. 
 
 # Interests to show in About widget
 interests:
@@ -53,7 +53,7 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: https://github.com/dennissergeev/cv/raw/build/sergeev_cv_full.pdf
+    link: static/uploads/sergeev_cv_full.pdf
   - icon: google-scholar # Alternatively, use `graduation-cap` icon from `fas` icon pack
     icon_pack: ai
     link: https://scholar.google.co.uk/citations?user=_TPM1CcAAAAJ&view_op=list_works&sortby=pubdate

@@ -1,0 +1,23 @@
+name: Fetch CV
+on:
+  schedule:
+    - cron: "00 09 * * *"
+
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v3
+
+      - name: Get auto-generated CV
+        shell: bash -l {0}
+        run: |
+          wget https://github.com/dennissergeev/cv/raw/build/sergeev_cv_full.pdf -qO content/static/uploads/sergeev_cv_full.pdf
+
+      - name: Push to website
+        shell: bash -l {0}
+        run: |
+          git add -f content/static/uploads/sergeev_cv_full.pdf
+          git -c user.name='gh-actions' -c user.email='gh-actions' commit -m "update cv"
+          git push -q -f https://github.com/$GITHUB_REPOSITORY main > /dev/null 2>&1
