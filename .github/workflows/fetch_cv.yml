@@ -1,7 +1,7 @@
 name: Fetch CV
 on:
   schedule:
-    - cron: "00 09 * * *"
+    - cron: "10 06 * * *"
 
 jobs:
   fetch_cv:
