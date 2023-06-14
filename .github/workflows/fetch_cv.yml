@@ -24,4 +24,4 @@ jobs:
         run: |
           git add -f content/static/uploads/sergeev_cv_full.pdf
           git -c user.name='gh-actions' -c user.email='gh-actions' commit -m "update cv"
-          git push -q -f https://github.com/$GITHUB_REPOSITORY main > /dev/null 2>&1
+          git push -f https://github.com/$GITHUB_REPOSITORY main > /dev/null 2>&1
