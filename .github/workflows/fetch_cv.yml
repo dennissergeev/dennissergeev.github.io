@@ -2,6 +2,10 @@ name: Fetch CV
 on:
   schedule:
     - cron: "10 06 * * *"
+  push:
+    branches: [ main ]
+    paths:
+      - '.github/workflows/fetch_cv.yml'
 
 jobs:
   fetch_cv:
@@ -17,10 +21,10 @@ jobs:
 
       - name: Push to website
         shell: bash -l {0}
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git add -f content/static/uploads/sergeev_cv_full.pdf
           git -c user.name='gh-actions' -c user.email='gh-actions' commit -m "update cv"
           git push -q -f https://github.com/$GITHUB_REPOSITORY main > /dev/null 2>&1
+          with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
 
