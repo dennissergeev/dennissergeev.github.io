@@ -5,6 +5,10 @@ on:
     branches:
       - main  # Set a branch name to trigger deployment
   pull_request:
+  workflow_run:
+    workflows: ["Fetch CV"]
+    types:
+      - completed
 
 jobs:
   deploy:
