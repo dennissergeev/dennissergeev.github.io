@@ -1,7 +1,7 @@
 name: Fetch CV
 on:
   schedule:
-    - cron: "00 06 * * *"
+    - cron: "30 06 * * *"
   push:
     branches: [ main ]
     paths:
