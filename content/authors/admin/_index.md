@@ -79,6 +79,10 @@ social:
     icon_pack: fab
     link: https://twitter.com/meteodenny
     label: Follow me on Twitter
+  - icon: at
+    icon_pack: fab
+    link: https://bsky.app/profile/meteodenny.bsky.social
+    label: Follow me on Bluesky
   - icon: mastodon
     icon_pack: fab
     link: https://fediscience.org/@meteodenny
