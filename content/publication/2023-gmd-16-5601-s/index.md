@@ -55,11 +55,10 @@ tags:
 - Physics - Atmospheric and Oceanic Physics
 
 # Display this page in a list of Featured pages?
-featured: false
+featured: true
 
 # Links
 url_pdf: ''
-url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
