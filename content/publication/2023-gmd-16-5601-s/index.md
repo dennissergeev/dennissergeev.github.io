@@ -36,7 +36,7 @@ publishDate: '2023-11-02T10:40:25.726897Z'
 # Publication type.
 # A single CSL publication type but formatted as a YAML list (for Hugo requirements).
 publication_types:
-- article-journal
+- '2'
 
 # Publication name and optional abbreviated publication name.
 publication: '*Geoscientific Model Development*'
