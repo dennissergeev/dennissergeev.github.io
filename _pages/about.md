@@ -4,6 +4,7 @@ title: about
 permalink: /
 subtitle: Atmospheric Scientist at the University of Exeter.
 
+cv_pdf: sergeev_cv_full.pdf
 profile:
   align: left
   image: denis_sergeev_exoclimes2023_square.jpg
@@ -22,6 +23,6 @@ Prior to arriving in Exeter, I obtained a PhD in Meteorology under the supervisi
 My PhD research was focused on high-latitude mesoscale cyclones, known as polar lows, and how their occurrence and evolution are affected by orography and sea ice in the Arctic.
 I got my MSc-equivalent degree, Specialist Diploma in Meteorology and Climatology at the Lomonosov Moscow State University.
 
-<div class="float-center">
+<div align="center">
   <iframe width="640" height="360" src="https://www.youtube.com/embed/_Aus842EZWk" title="Meet an Exoplanet Climatologist --  with Dr Denis Sergeev" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
