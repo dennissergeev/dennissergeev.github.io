@@ -2,24 +2,26 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Atmospheric Scientist at the University of Exeter.
 
 profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  align: left
+  image: denis_sergeev_exoclimes2023_square.jpg
+  image_circular: true # crops the image to make it circular
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am fascinated by planetary atmospheres. In my research, I try to unravel the complexity of atmospheric processes on terrestrial planets using an hierarchy of 3D climate models. I am particularly interested in the role of convection and clouds in the planetary habitability.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+At present, I am a Postdoctoral Research Fellow at the Department of Physics and Astronomy, University of Exeter.
+I am a member of the [Exeter Exoplanet Theory Group (EETG)](https://www.exoclimatology.com/), where we use an hierarchy of numerical models (such as the Met Office Unified Model) to study the diverse zoo of planetary atmospheres.
+Prior to arriving in Exeter, I obtained a PhD in Meteorology under the supervision of [Prof. Ian Renfrew](https://people.uea.ac.uk/i_renfrew) at the University of East Anglia.
+My PhD research was focused on high-latitude mesoscale cyclones, known as polar lows, and how their occurrence and evolution are affected by orography and sea ice in the Arctic.
+I got my MSc-equivalent degree, Specialist Diploma in Meteorology and Climatology at the Lomonosov Moscow State University.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<div class="float-center">
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/_Aus842EZWk" title="Meet an Exoplanet Climatologist --  with Dr Denis Sergeev" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>

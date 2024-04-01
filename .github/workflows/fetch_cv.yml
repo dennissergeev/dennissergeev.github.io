@@ -3,9 +3,9 @@ on:
   schedule:
     - cron: "30 06 * * *"
   push:
-    branches: [ main ]
+    branches: [main]
     paths:
-      - '.github/workflows/fetch_cv.yml'
+      - ".github/workflows/fetch_cv.yml"
 
 jobs:
   fetch_cv:
