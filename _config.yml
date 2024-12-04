@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Denis
 middle_name: E.
 last_name: Sergeev
-email: d.sergeev@exeter.ac.uk
+email: denis.sergeev@bristol.ac.uk
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   My personal website.
 footer_text: >
@@ -67,10 +67,10 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: dennissergeev # your GitHub user name
 gitlab_username: # your GitLab user name
-x_username: meteodenny # your X handle
+x_username: # your X handle
 bluesky_username: meteodenny
 ads_library: 2IT653szTA-gYw3vyA-9Sw # NASA ADS public library
-mastodon_username: fediscience.org/@meteodenny # your mastodon instance+username in the format instance.tld/@username
+mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: denis-sergeev-a3837078 # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: _TPM1CcAAAAJ # your Google Scholar ID
@@ -86,7 +86,7 @@ research_gate_profile: Denis_Sergeev2 # your profile on ResearchGate
 scopus_id: # your profile on Scopus
 flickr_id: # your flickr id
 blogger_url: # your blogger URL
-work_url: https://physics-astronomy.exeter.ac.uk/people/profile/index.php?web_id=ds591 # work page URL
+work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
@@ -105,8 +105,8 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  Office 509, Physics Building, University of Exeter
-  Stocker Road, Exeter, EX4 4QL
+  HH Wills Physics Laboratory, University of Bristol
+  Tyndall Ave, Bristol, BS8 1TL
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -243,7 +243,6 @@ plugins:
   - jekyll/scholar
   - jekyll-sitemap
   - jekyll-toc
-  - jekyll-twitter-plugin
   - jemoji
 
 # Sitemap settings
