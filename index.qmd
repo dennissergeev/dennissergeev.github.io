@@ -4,6 +4,6 @@ title: "demo"
 
 This is a Quarto website.
 
-blah blah
+blah
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
