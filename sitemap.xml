@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://dennissergeev.github.io/demo/about.html</loc>
-    <lastmod>2025-04-06T13:10:32.831Z</lastmod>
+    <loc>https://dennissergeev.github.io/demo/index.html</loc>
+    <lastmod>2025-08-09T16:31:29.894Z</lastmod>
   </url>
   <url>
-    <loc>https://dennissergeev.github.io/demo/index.html</loc>
-    <lastmod>2025-04-06T13:10:32.831Z</lastmod>
+    <loc>https://dennissergeev.github.io/demo/publications.html</loc>
+    <lastmod>2025-08-09T16:31:29.894Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dennissergeev.github.io/demo/about.html</loc>
+    <lastmod>2025-08-09T16:31:29.890Z</lastmod>
   </url>
 </urlset>
