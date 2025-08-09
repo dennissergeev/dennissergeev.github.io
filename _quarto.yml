@@ -1,21 +1,24 @@
 project:
   type: website
+  preview:
+    port: 9999
+  resources:
+    - /assets
 
 website:
-  title: "demo"
+  title: "Denis E. Sergeev"
+  favicon: /assets/favicon.ico
+  description: "Denis E. Sergeev's academic website"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
+    right:
       - about.qmd
+      - publications.qmd
+    alignment: center
 
 format:
   html:
     theme:
       - cosmo
-      - brand
     css: styles.css
-    toc: true
-
-
-
+    toc: false
+    crossrefs-hover: true

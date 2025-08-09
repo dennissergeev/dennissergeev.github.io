@@ -1,0 +1,9 @@
+---
+title: "Publications"
+bibliography: assets/my_publications.bib
+csl: assets/nature-no-et-al.csl
+nocite: |
+  @*
+---
+::: {#refs}
+:::
