@@ -21,6 +21,6 @@ jobs:
       - name: Push to website
         shell: bash -l {0}
         run: |
-          git add -f assets/pdf/sergeev_cv_full.pdf
+          git add -f assets/sergeev_cv_full.pdf
           git -c user.name='github-actions[bot]' -c user.email='github-actions[bot]@users.noreply.github.com' commit -m "update cv"
           git push -f https://github.com/$GITHUB_REPOSITORY main > /dev/null 2>&1
