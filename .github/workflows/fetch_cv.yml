@@ -16,7 +16,7 @@ jobs:
       - name: Get auto-generated CV
         shell: bash -l {0}
         run: |
-          wget https://github.com/dennissergeev/cv/raw/build/sergeev_cv_full.pdf -qO assets/pdf/sergeev_cv_full.pdf
+          wget https://github.com/dennissergeev/cv/raw/build/sergeev_cv_full.pdf -qO assets/sergeev_cv_full.pdf
 
       - name: Push to website
         shell: bash -l {0}
