@@ -1,0 +1,24 @@
+---
+title: Atmospheric convection
+bibliography: ../assets/my_publications.bib
+csl: ../assets/nature-no-et-al.csl
+---
+
+![](figures/trap1e_grcs_110d_view3d__enlarged.png){width=100% alt="Two side-by-side 3D visualizations of a planet. The left panel displays 3D convective clouds with a grid overlay on one side of the planet, and black arrows indicating wind direction and strength. The right panel shows similar features from a different angle, highlighting the distribution of clouds and wind vectors."}
+
+Convection is a major driver of energy transport in planetary atmospheres.
+It is a key process in the formation of clouds and precipitation.
+I use high-resolution models to resolve convective dynamics on Earth-like planets and sub-Neptunes.
+
+![](figures/trap1e__grcs__toa_olr_map__15W_35E_24S_23N__102d.png){width=100% alt="Three grayscale maps compare outgoing longwave radiation from a climate model for the exoplanet TRAPPIST-1e. The left panel shows a global map with a blue rectangle highlighting a zoomed region. The middle panel displays a pixelated close-up of the highlighted area. The right panel presents a high-resolution simulation of the same region, revealing swirling cloud patterns. A vertical color bar on the right is labeled TOA OLR in watts per square metre and ranges from 70 to 260."}
+
+Characterising exoplanets in terms of their potential habitability and the detectability of their atmospheres relies on physically justified modelling of cloud processes.
+Directly related to cloud formation is moist convection.
+With sufficient model resolution, convection can be simulated explicitly without relying on approximations, thus improving the accuracy of exoplanetary climate predictions.
+In my 2020 study[@Sergeev20_atmospheric], I performed such convection-resolving simulations using the Unified Model for temperate Earth-sized planets, using TRAPPIST-1e and Proxima Cenatauri b as possible examples.
+My simulations indicate that the transport of energy and material from the day hemisphere to the night hemisphere is markedly different when convection is directly resolved.
+
+Using the new model of the Met Office, [LFRic](lfric.qmd), I showed that convection can be resolved in a stretched-mesh configuration[@Sergeev24_impact], which captures the key feedback between convection on the day side and the global climate of the planet.
+
+::: {#refs}
+:::

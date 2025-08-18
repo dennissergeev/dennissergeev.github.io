@@ -1,0 +1,41 @@
+---
+title: "Research"
+---
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 #my-grid}
+**LFRic for planetary atmospheres**
+
+[![](figures/lfric_stretched_mesh_3d_viz_landscape.png){alt="Two globes covered in pixelated patterns showing LFRic model output for a stretched-mesh simulation, set against a star-filled galaxy background. Faint lines of computer code are visible in the background."}](lfric.qmd)
+:::
+
+::: {.g-col-12 .g-col-md-6 #my-grid}
+**Atmospheric convection**
+
+[![](figures/trap1e_grcs_110d_view3d__enlarged.png){alt="Two side-by-side 3D visualizations of a planet. The left panel displays 3D convective clouds with a grid overlay on one side of the planet, and black arrows indicating wind direction and strength. The right panel shows similar features from a different angle, highlighting the distribution of clouds and wind vectors."}](convection.qmd)
+:::
+
+
+::: {.g-col-12 .g-col-md-6 #my-grid}
+**Atmospheric aerosols**
+
+[![](figures/boutle_et_al_2020_natcc_pr_draft09.png){alt="Three planets with 3D cloud patterns and coloured wind vectors, set against a dark star-filled space background. A red star glows in the upper left corner. Text in the lower left reads Denis Sergeev / University of Exeter."}](aerosols.qmd)
+:::
+
+::: {.g-col-12 .g-col-md-6 #my-grid}
+**Extraterrestrial lightning**
+
+[![](figures/cl206_test__toa_osr_light_number__20000107003000.png){alt="Satellite-like view of a swirling storm system over a planet with yellow lightning strike locations marked. The main map is overlaid with latitude and longitude grid lines, and a circular inset in the top right shows the planet with the storm area outlined in red."}](lightning.qmd)
+:::
+
+::: {.g-col-12 .g-col-md-6 #my-grid}
+**Exoplanet model intercomparison projects**
+
+[![](figures/201759_Exoplanet_Cloud_Cover_v5.jpg){alt="Four Earth-like exoplanets shown in a sequence from left to right, each with different cloud cover and surface features, set against a star-filled galaxy background. Colored beams connect each planet to a corresponding graph displaying a transmission spectrum in orange, green, red, and blue."}](cuisines.qmd)
+:::
+
+:::
+
+<!-- <div class="grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2em;"> -->
+
+<!-- <div style="border:1px solid #ccc; padding:1em; border-radius:8px;"> -->

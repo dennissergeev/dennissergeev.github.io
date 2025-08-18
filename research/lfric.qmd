@@ -1,0 +1,18 @@
+---
+title: Next-generation climate model for planetary atmospheres
+bibliography: ../assets/my_publications.bib
+csl: ../assets/nature-no-et-al.csl
+---
+
+![](figures/lfric_stretched_mesh_3d_viz_landscape.png){width=100% alt="Two globes covered in pixelated patterns showing LFRic model output for a stretched-mesh simulation, set against a star-filled galaxy background. Faint lines of computer code are visible in the background."}
+
+I am leading the adaptation of LFRic, [the Met Office's next-generation model](https://www.metoffice.gov.uk/research/approach/modelling-systems/next-gen-modelling-systems), to the atmospheres of exoplanets and solar system planets (e.g., Mars, Titan, ice giants).
+
+In my 2023 study[@Sergeev23_simulations], I showed that LFRic can reproduce a number of idealised climate scenarios for terrestrial exoplanets such as the Held-Suarez-like temperature forcing cases and the [THAI](https://nexss.info/cuisines/thai-mip/) benchmarks.
+I then focused on the impact of convection on the planetary climate in a global stretched-mesh simulation[@Sergeev24_impact].
+This work was the first application of a stretched-mesh global model to exoplanets and has a great potential for studying convection at a reduced computational cost.
+
+Currently, I am working on adapting LFRic to hot Jupiters and sub-Neptunes.
+
+::: {#refs}
+:::

@@ -1,0 +1,25 @@
+---
+title: Atmospheric aerosols
+bibliography: ../assets/my_publications.bib
+csl: ../assets/nature-no-et-al.csl
+---
+
+![](figures/boutle_et_al_2020_natcc_pr_draft09.png){width=100% alt="Three planets with 3D cloud patterns and coloured wind vectors, set against a dark star-filled space background. A red star glows in the upper left corner. Text in the lower left reads Denis Sergeev / University of Exeter."}
+
+Aerosols - such as cloud condensates, photochemical hazes and mineral dust - play a crucial role in shaping planetary climates.
+I simulate their formation and evolution on different planets and using different models.
+
+
+[@Mak23_3d]
+
+[@Mak24_3d]
+
+[@Mak25_3d]
+
+![Image credit:](figures/dust_storm_esa_mars_express__esa_dlr_freie_uni_berlin.jpg){width=100%, alt="Martian dust storm advancing over a desert landscape; the left side shows cloudless sand dunes and craters, while the right side is obscured by the dense storm."}
+
+[@McCulloch23_modern]
+
+
+::: {#refs}
+:::

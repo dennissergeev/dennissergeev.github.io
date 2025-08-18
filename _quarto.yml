@@ -12,6 +12,7 @@ website:
   navbar:
     right:
       - about.qmd
+      - research/index.qmd
       - publications.qmd
     alignment: center
 
