@@ -7,18 +7,30 @@ csl: ../assets/nature-no-et-al.csl
 ![](figures/boutle_et_al_2020_natcc_pr_draft09.png){width=100% alt="Three planets with 3D cloud patterns and coloured wind vectors, set against a dark star-filled space background. A red star glows in the upper left corner. Text in the lower left reads Denis Sergeev / University of Exeter."}
 
 Aerosols - such as cloud condensates, photochemical hazes and mineral dust - play a crucial role in shaping planetary climates.
-I simulate their formation and evolution on different planets and using different models.
+My collaborators and I simulate their formation and evolution on different planets, including Mars, Earth-like exoplanets and hot Jupiters.
 
+I demonstrated the importance of cloud-climate feedbacks on the climate of terrestrial exoplanets, using Proxima Centauri b and TRAPPIST-1e as examples [@Sergeev20_atmospheric, @Sergeev22_bistability, @Sergeev24_impact].
+What is particularly important is how [convective](convection.qmd) clouds are represented in 3D climate models - it is possible, albeit with a higher computational cost, to resolve these clouds better using models with finer grids.
+This allows us to simulate both cloudy and cloud-free patches of the atmosphere with more physical realism, which makes the model better resolve how much energy from the planet's host star is reflected back or absorbed by the planet.
+These cloud-related climate mechanisms may also affect the preferred state of the global wind structure on a tidally-locked exoplanet, which may be dependent on model components or even initial conditions of the model run[@Sergeev22_bistability].
+It is therefore crucial to perform multi-model climate studies for exoplanets and systematically [compare 3D climate models](cuisines.qmd).
 
-[@Mak23_3d]
+In a series of papers led by Mei Ting (Martha) Mak, we used the Met Office's Unified Model to simulate the imact of haze on the climate of the Archean Earth (2.5-4 billion years ago)[@Mak23_3d], a tidally locked rocky exoplanet TRAPPIST-1e[@Mak24_3d] and three different hot Jupiters (HD 189733b, HD 209458b and WASP-39b)[@Mak25_impact].
+For the Archean Earth, we showed[@Mak23_3d] that a thin layer of haze leads to warming of the global climate due to the change of abundance and location of water vapor and clouds.
+A thick aerosol layer, on the other hand, cools down the climate rapidly and makes it uninhabitable.
+For TRAPPIST-1e, we varied the concentration of carbon dioxide and methane, resulting in a different amount of photochemical haze, which ultimately resulted in different global circulation and cloud regimes[@Mak24_3d].
+For hot Jupiters[@Mak25_impact], we demonstrated that the equatorial jet determines the day-to-night distribution of haze, while eddies determine the south-to-north distribution and local fluctuations of the haze layer.
+Our work also suggests that an observed increase in transit depth over the morning terminator across the ultra-violet and optical wavelength regime could serve as a strong indicator of the presence of haze on hot Jupiters.
 
-[@Mak24_3d]
-
-[@Mak25_3d]
+Mineral dust is an important component of the atmosphere - be it on Earth or on its solar system neighbour, Mars.
+In a 2023 paper[@McCulloch23_modern] led by Danny McCulloch, we applied the Unified Model to the climate of modern Mars.
+We focused on the impact of dust on the large-scale wind and temperature structure.
+Our simulations demonstrated how dust, through its interaction with stellar/thermal heating/cooling, accelerates the winds and creates an isothermal layer in mid-latitudes during the dusty season.
+A PhD project is currently under way to adapt the next-generation atmospheric model of the Met Office, LFRic[@Sergeev23_simulations], to the climate of Mars.
 
 ![Image credit:](figures/dust_storm_esa_mars_express__esa_dlr_freie_uni_berlin.jpg){width=100%, alt="Martian dust storm advancing over a desert landscape; the left side shows cloudless sand dunes and craters, while the right side is obscured by the dense storm."}
 
-[@McCulloch23_modern]
+
 
 
 ::: {#refs}
