@@ -28,10 +28,7 @@ We focused on the impact of dust on the large-scale wind and temperature structu
 Our simulations demonstrated how dust, through its interaction with stellar/thermal heating/cooling, accelerates the winds and creates an isothermal layer in mid-latitudes during the dusty season.
 A PhD project is currently under way to adapt the next-generation atmospheric model of the Met Office, LFRic[@Sergeev23_simulations], to the climate of Mars.
 
-![Image credit:](figures/dust_storm_esa_mars_express__esa_dlr_freie_uni_berlin.jpg){width=100%, alt="Martian dust storm advancing over a desert landscape; the left side shows cloudless sand dunes and craters, while the right side is obscured by the dense storm."}
-
-
-
+![Image credit: ESA Mars Express / ESA DLR Freie Universtat Berlin](figures/dust_storm_esa_mars_express__esa_dlr_freie_uni_berlin.jpg){width=100%, alt="Martian dust storm advancing over a desert landscape; the left side shows cloudless sand dunes and craters, while the right side is obscured by the dense storm."}
 
 ::: {#refs}
 :::
