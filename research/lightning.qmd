@@ -6,20 +6,20 @@ csl: ../assets/nature-no-et-al.csl
 
 ![](figures/cl206_test__toa_osr_light_number__20000107003000.png){width=100% alt="Satellite-like view of a swirling storm system over a planet with yellow lightning strike locations marked. The main map is overlaid with latitude and longitude grid lines, and a circular inset in the top right shows the planet with the storm area outlined in red."}
 
-Cloudy atmospheres produce electric discharges, including lightning, which is one of the most fascinating atmospheric phenomena.
-Moreover, lightning strikes break down gas molecules and thereby affect the atmospheric composition.
+Cloudy atmospheres produce lightning - one of the most fascinating atmospheric phenomena.
+Lightning can break down gas molecules and change the atmospheric composition.
 I study lightning in extraterrestrial atmospheres to understand its impact on the atmospheric chemistry and potential biosignatures.
 
 In a paper[@Braam22_lightning-induced] led by [Marrick Braam](https://marrickbraam.com), we used a 3D coupled climate-chemistry model to investigate the climatology of lightning and its chemical impact on the atmospheres of tidally-locked Earth-like exoplanets (nominally Proxima Centauri b).
-We found that lightning is concentrated on the day side of the planet, associated with deep convective clouds.
-The number of lightning strikes per year was found to be quite low compared to those observed on Earth.
+We found that lightning is concentrated on the day side of the planet, where deep cumulonimbus-like clouds are abundant.
+The number of lightning strikes per year was quite low in our simulations compared to those observed on Earth.
 However, lightning led to a production of nitrogen oxides, which were then transported from the day side to the night side.
 There they were chemically converted to more complex species, which accumulated and resulted in a chemical contrast between the two hemispheres of the planet.
 
 Our more resent study[@Sergeev25_lightning] focused on how the background atmospheric pressure (i.e. the total mass of the atmosphere) changes lightning occurrence on an Earth-size tidally locked exoplanet (using TRAPPIST-1e's orbital parameters).
 We found that lightning decreases as the pressure increases, due to a number of climate mechanisms, primarily weaker convection at higher pressures.
-This study was the first application of a storm-resolving climate model to study lightning on exoplanets.
-What is even greater, this study, now peer-reviewed and published in a top journal in the field, started as a summer project led by two undergraduate students, James McDermott and Lottie Woods - I was lucky to work with them on this project.
+Our study was the first application of a storm-resolving climate model to study lightning on exoplanets.
+Now peer-reviewed and published in a top journal in the field, this study started as a summer project led by two undergraduate students, James McDermott and Lottie Woods - I was very lucky to work with them!
 
 ::: {#refs}
 :::
