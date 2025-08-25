@@ -89,35 +89,6 @@ div.csl-indent {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -142,6 +113,10 @@ window.Quarto = {
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./research/index.html"> 
+<span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./publications.html" aria-current="page"> 
@@ -182,110 +157,110 @@ window.Quarto = {
 
 
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0" data-line-spacing="2" role="list">
-<div id="ref-2025MNRAS.541.3155S" class="csl-entry" role="listitem">
-<div class="csl-left-margin">1. </div><div class="csl-right-inline">Sergeev, D. E., McDermott, J. W., Woods, L., Braam, M., Eager-Nash, J. K. &amp; Boutle, I. A. <a href="https://doi.org/10.1093/mnras/staf1196"><span class="nocase">Lightning activity on a tidally locked terrestrial exoplanet in storm-resolving simulations for a range of surface pressures</span></a>. <strong>541,</strong> 3155–3166 (2025).</div>
+<div id="ref-Braam22_lightning-induced" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Braam, M., Palmer, P. I., Decin, L., Ridgway, R. J., Zamyatina, M., Mayne, N. J., Sergeev, D. E. &amp; Abraham, N. L. <a href="https://doi.org/10.1093/mnras/stac2722">Lightning-induced chemistry on tidally-locked <span class="nocase">Earth-like</span> exoplanets</a>. <em>Monthly Notices of the Royal Astronomical Society</em> <strong>517,</strong> 2383–2402 (2022).</div>
 </div>
-<div id="ref-2025MNRAS.tmp.1205M" class="csl-entry" role="listitem">
-<div class="csl-left-margin">2. </div><div class="csl-right-inline">Mak, M. T., Sergeev, D., Mayne, N., Zamyatina, M., Steinrueck, M. E., Manners, J., Hébrard, É., Sing, D. K. &amp; Kohary, K. <span class="nocase">The Impact of Different Haze Types on the Atmosphere and Observations of Hot Jupiters: 3D Simulations of HD 189733b, HD 209458b and WASP-39b</span>. (2025). doi:<a href="https://doi.org/10.1093/mnras/staf1250">10.1093/mnras/staf1250</a></div>
+<div id="ref-Christie22_camembert" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Christie, D. A., Lee, E. K. H., Innes, H., Noti, P. A., Charnay, B., Fauchez, T. J., Mayne, N. J., Deitrick, R., Ding, F., Greco, J. J., Hammond, M., Malsky, I., Mandell, A., Rauscher, E., Roman, M. T., Sergeev, D. E., Sohl, L., Steinrueck, M. E., Turbet, M., Wolf, E. T., Zamyatina, M. &amp; Carone, L. <a href="https://doi.org/10.3847/PSJ/ac9dfe"><span>CAMEMBERT</span>: <span>A Mini-Neptunes General Circulation Model Intercomparison</span>, <span>Protocol Version</span> 1.0.<span>A CUISINES Model Intercomparison Project</span></a>. <em>The Planetary Science Journal</em> <strong>3,</strong> 261 (2022).</div>
 </div>
-<div id="ref-2025MNRAS.539.1381M" class="csl-entry" role="listitem">
-<div class="csl-left-margin">3. </div><div class="csl-right-inline">Meech, A., Claringbold, A. B., Ahrer, E.-M., Kirk, J., López-Morales, M., Taylor, J., Booth, R. A., Penzlin, A. B. T., Alderson, L., Christie, D. A., Esparza-Borges, E., Fairman, C., Mayne, N. J., McCormack, M., Owen, J. E., Panwar, V., Powell, D., Sergeev, D. E., Valentine, D., Wakeford, H. R., Wheatley, P. J. &amp; Zamyatina, M. <a href="https://doi.org/10.1093/mnras/staf530"><span class="nocase">BOWIE-ALIGN: substellar metallicity and carbon depletion in the aligned TrES-4b with JWST NIRSpec transmission spectroscopy</span></a>. <strong>539,</strong> 1381–1403 (2025).</div>
+<div id="ref-Cohen22_laso" class="csl-entry" role="listitem">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">Cohen, M., Bollasina, M. A., Palmer, P. I., Sergeev, D. E., Boutle, I. A., Mayne, N. J. &amp; Manners, J. <a href="https://doi.org/10.3847/1538-4357/ac625d">Longitudinally <span>Asymmetric Stratospheric Oscillation</span> on a <span>Tidally Locked Exoplanet</span></a>. <em>The Astrophysical Journal</em> <strong>930,</strong> 152 (2022).</div>
 </div>
-<div id="ref-2025MNRAS.537.3027K" class="csl-entry" role="listitem">
-<div class="csl-left-margin">4. </div><div class="csl-right-inline">Kirk, J., Ahrer, E.-M., Claringbold, A. B., Zamyatina, M., Fisher, C., McCormack, M., Panwar, V., Powell, D., Taylor, J., Thorngren, D. P., Christie, D. A., Esparza-Borges, E., Tsai, S.-M., Alderson, L., Booth, R. A., Fairman, C., López-Morales, M., Mayne, N. J., Meech, A., Mollière, P., Owen, J. E., Penzlin, A. B. T., Sergeev, D. E., Valentine, D., Wakeford, H. R. &amp; Wheatley, P. J. <a href="https://doi.org/10.1093/mnras/staf208"><span class="nocase">BOWIE-ALIGN: JWST reveals hints of planetesimal accretion and complex sulphur chemistry in the atmosphere of the misaligned hot Jupiter WASP-15b</span></a>. <strong>537,</strong> 3027–3052 (2025).</div>
+<div id="ref-Cohen23_traveling" class="csl-entry" role="listitem">
+<div class="csl-left-margin">4. </div><div class="csl-right-inline">Cohen, M., Bollasina, M. A., Sergeev, D. E., Palmer, P. I. &amp; Mayne, N. J. <a href="https://doi.org/10.3847/PSJ/acc9c4">Traveling <span class="nocase">Planetary-scale Waves Cause Cloud Variability</span> on <span>Tidally Locked Aquaplanets</span></a>. <em>The Planetary Science Journal</em> <strong>4,</strong> 68 (2023).</div>
 </div>
-<div id="ref-2024MNRAS.535..171P" class="csl-entry" role="listitem">
-<div class="csl-left-margin">5. </div><div class="csl-right-inline">Penzlin, A. B. T., Booth, R. A., Kirk, J., Owen, J. E., Ahrer, E., Christie, D. A., Claringbold, A. B., Esparza-Borges, E., López-Morales, M., Mayne, N. J., McCormack, M., Meech, A., Panwar, V., Powell, D., Sergeev, D. E., Taylor, J., Wheatley, P. J. &amp; Zamyatina, M. <a href="https://doi.org/10.1093/mnras/stae2362"><span class="nocase">BOWIE-ALIGN: how formation and migration histories of giant planets impact atmospheric compositions</span></a>. <strong>535,</strong> 171–186 (2024).</div>
+<div id="ref-Eager-Nash20_implications" class="csl-entry" role="listitem">
+<div class="csl-left-margin">5. </div><div class="csl-right-inline">Eager-Nash, J. K., Reichelt, D. J., Mayne, N. J., Lambert, F. H., Sergeev, D. E., Ridgway, R. J., Manners, J., Boutle, I. A., Lenton, T. M. &amp; Kohary, K. <a href="https://doi.org/10.1051/0004-6361/202038089">Implications of different stellar spectra for the climate of tidally locked <span class="nocase">Earth-like</span> exoplanets</a>. <em>Astronomy &amp; Astrophysics</em> <strong>639,</strong> A99 (2020).</div>
 </div>
-<div id="ref-2024ApJ...970....7S" class="csl-entry" role="listitem">
-<div class="csl-left-margin">6. </div><div class="csl-right-inline">Sergeev, D. E., Boutle, I. A., Lambert, F. H., Mayne, N. J., Bendall, T., Kohary, K., Olivier, E. &amp; Shipway, B. <a href="https://doi.org/10.3847/1538-4357/ad4ecd"><span class="nocase">The Impact of the Explicit Representation of Convection on the Climate of a Tidally Locked Planet in Global Stretched-mesh Simulations</span></a>. <strong>970,</strong> 7 (2024).</div>
+<div id="ref-Eager-Nash23_3d" class="csl-entry" role="listitem">
+<div class="csl-left-margin">6. </div><div class="csl-right-inline">Eager-Nash, J. K., Mayne, N. J., Nicholson, A. E., Prins, J. E., Young, O. C. F., Daines, S. J., Sergeev, D. E., Lambert, F. H., Manners, J., Boutle, I. A., Wolf, E. T., Kamp, I. E. E., Kohary, K. &amp; Lenton, T. M. <a href="https://doi.org/10.1029/2022JD037544"><span>3D Climate Simulations</span> of the <span>Archean Find That Methane</span> has a <span>Strong Cooling Effect</span> at <span>High Concentrations</span></a>. <em>Journal of Geophysical Research: Atmospheres</em> <strong>128,</strong> e2022JD037544 (2023).</div>
 </div>
-<div id="ref-2024JAMES..1603985N" class="csl-entry" role="listitem">
-<div class="csl-left-margin">7. </div><div class="csl-right-inline">Natchiar, S. R. M., Webb, M. J., Lambert, F. H., Vallis, G. K., Morcrette, C. J., Holloway, C. E., Sergeev, D. E. &amp; Boutle, I. <a href="https://doi.org/10.1029/2023MS003985"><span class="nocase">Reduction in the Tropical High Cloud Fraction in Response to an Indirect Weakening of the Hadley Cell</span></a>. <em>Journal of Advances in Modeling Earth Systems</em> <strong>16,</strong> e2023MS003985 (2024).</div>
+<div id="ref-Eliseev14_impact" class="csl-entry" role="listitem">
+<div class="csl-left-margin">7. </div><div class="csl-right-inline">Eliseev, A. V. &amp; Sergeev, D. E. <a href="https://doi.org/10.1134/S0001433814020030">Impact of subgrid-scale vegetation heterogeneity on the simulation of carbon-cycle characteristics</a>. <em>Izvestiya, Atmospheric and Oceanic Physics</em> <strong>50,</strong> 225–235 (2014).</div>
 </div>
-<div id="ref-2024MNRAS.529.3971M" class="csl-entry" role="listitem">
-<div class="csl-left-margin">8. </div><div class="csl-right-inline">Mak, M. T., Sergeev, D. E., Mayne, N., Banks, N., Eager-Nash, J., Manners, J., Arney, G., Hébrard, É. &amp; Kohary, K. <a href="https://doi.org/10.1093/mnras/stae741"><span class="nocase">3D simulations of TRAPPIST-1e with varying CO<span class="math inline">\(_{2}\)</span>, CH<span class="math inline">\(_{4}\)</span>, and haze profiles</span></a>. <strong>529,</strong> 3971–3987 (2024).</div>
+<div id="ref-Fauchez21_workshop" class="csl-entry" role="listitem">
+<div class="csl-left-margin">8. </div><div class="csl-right-inline">Fauchez, T. J., Turbet, M., Sergeev, D. E., Mayne, N. J., Spiga, A., Sohl, L., Saxena, P., Deitrick, R., Gilli, G., Domagal-Goldman, S. D., Forget, F., Consentino, R., Barnes, R., Haqq-Misra, J., Way, M. J., Wolf, E. T., Olson, S., Crouse, J. S., Janin, E., Bolmont, E., Leconte, J., Chaverot, G., Jaziri, Y., Tsigaridis, K., Yang, J., Pidhorodetska, D., Kopparapu, R. K., Chen, H., Boutle, I. A., Lefevre, M., Charnay, B., Burnett, A., Cabra, J. &amp; Bouldin, N. <a href="https://doi.org/10.3847/PSJ/abf4df"><span>TRAPPIST Habitable Atmosphere Intercomparison</span> (<span>THAI</span>) <span>Workshop Report</span></a>. <em>The Planetary Science Journal</em> <strong>2,</strong> 106 (2021).</div>
 </div>
-<div id="ref-2024MNRAS.529.1776Z" class="csl-entry" role="listitem">
-<div class="csl-left-margin">9. </div><div class="csl-right-inline">Zamyatina, M., Christie, D. A., Hébrard, E., Mayne, N. J., Radica, M., Taylor, J., Baskett, H., Moore, B., Lils, C., Sergeev, D. E., Ahrer, E.-M., Manners, J., Kohary, K. &amp; Feinstein, A. D. <a href="https://doi.org/10.1093/mnras/stae600"><span class="nocase">Quenching-driven equatorial depletion and limb asymmetries in hot Jupiter atmospheres: WASP-96b example</span></a>. <strong>529,</strong> 1776–1801 (2024).</div>
+<div id="ref-Fauchez22_thai" class="csl-entry" role="listitem">
+<div class="csl-left-margin">9. </div><div class="csl-right-inline">Fauchez, T. J., Villanueva, G. L., Sergeev, D. E., Turbet, M., Boutle, I. A., Tsigaridis, K., Way, M. J., Wolf, E. T., Domagal-Goldman, S. D., Forget, F., Haqq-Misra, J., Kopparapu, R. K., Manners, J. &amp; Mayne, N. J. <a href="https://doi.org/10.3847/PSJ/ac6cf1">The <span>TRAPPIST-1 Habitable Atmosphere Intercomparison</span> (<span>THAI</span>). <span>III</span>. <span>Simulated Observables</span>—the <span>Return</span> of the <span>Spectrum</span></a>. <em>The Planetary Science Journal</em> <strong>3,</strong> 213 (2022).</div>
 </div>
-<div id="ref-2024PSJ.....5...64V" class="csl-entry" role="listitem">
-<div class="csl-left-margin">10. </div><div class="csl-right-inline">Villanueva, G. L., Fauchez, T. J., Kofman, V., Alei, E., Lee, E. K. H., Janin, E., Himes, M. D., Leconte, J., Leung, M., Faggi, S., Mak, M. T., Sergeev, D. E., Kozakis, T., Manners, J., Mayne, N., Schwieterman, E. W., Howe, A. R. &amp; Batalha, N. <a href="https://doi.org/10.3847/PSJ/ad2681"><span class="nocase">Modeling Atmospheric Lines by the Exoplanet Community (MALBEC) Version 1.0: A CUISINES Radiative Transfer Intercomparison Project</span></a>. <strong>5,</strong> 64 (2024).</div>
+<div id="ref-Joshi20_earth" class="csl-entry" role="listitem">
+<div class="csl-left-margin">10. </div><div class="csl-right-inline">Joshi, M. M., Elvidge, A. D., Wordsworth, R. &amp; Sergeev, D. <a href="https://doi.org/10.3847/2041-8213/ab7fb3">Earth’s <span>Polar Night Boundary Layer</span> as an <span>Analog</span> for <span>Dark Side Inversions</span> on <span>Synchronously Rotating Terrestrial Exoplanets</span></a>. <em>The Astrophysical Journal</em> <strong>892,</strong> L33 (2020).</div>
 </div>
-<div id="ref-2024RASTI...3..691K" class="csl-entry" role="listitem">
-<div class="csl-left-margin">11. </div><div class="csl-right-inline">Kirk, J., Ahrer, E.-M., Penzlin, A. B. T., Owen, J. E., Booth, R. A., Alderson, L., Christie, D. A., Claringbold, A. B., Esparza-Borges, E., Fisher, C. E., López-Morales, M., Mayne, N. J., McCormack, M., Meech, A., Panwar, V., Powell, D., Sergeev, D. E., Taylor, J., Tsai, S.-M., Valentine, D., Wakeford, H. R., Wheatley, P. J. &amp; Zamyatina, M. <a href="https://doi.org/10.1093/rasti/rzae043"><span class="nocase">BOWIE-ALIGN: A JWST comparative survey of aligned versus misaligned hot Jupiters to test the dependence of atmospheric composition on migration history</span></a>. <em>RAS Techniques and Instruments</em> <strong>3,</strong> 691–704 (2024).</div>
+<div id="ref-Kirk24_bowiealign" class="csl-entry" role="listitem">
+<div class="csl-left-margin">11. </div><div class="csl-right-inline">Kirk, J., Ahrer, E.-M., Penzlin, A. B. T., Owen, J. E., Booth, R. A., Alderson, L., Christie, D. A., Claringbold, A. B., Esparza-Borges, E., Fisher, C. E., López-Morales, M., Mayne, N. J., McCormack, M., Meech, A., Panwar, V., Powell, D., Sergeev, D. E., Taylor, J., Tsai, S.-M., Valentine, D., Wakeford, H. R., Wheatley, P. J. &amp; Zamyatina, M. <a href="https://doi.org/10.1093/rasti/rzae043"><span>BOWIE-ALIGN</span>: <span>A JWST</span> comparative survey of aligned versus misaligned hot <span>Jupiters</span> to test the dependence of atmospheric composition on migration history</a>. <em>RAS Techniques and Instruments</em> <strong>3,</strong> 691–704 (2024).</div>
 </div>
-<div id="ref-2023JGRD..12839343M" class="csl-entry" role="listitem">
-<div class="csl-left-margin">12. </div><div class="csl-right-inline">Mak, M. T., Mayne, N. J., Sergeev, D. E., Manners, J., Eager-Nash, J. K., Arney, G., Hébrard, E. &amp; Kohary, K. <a href="https://doi.org/10.1029/2023JD039343"><span class="nocase">3D Simulations of the Archean Earth Including Photochemical Haze Profiles</span></a>. <em>Journal of Geophysical Research (Atmospheres)</em> <strong>128,</strong> e2023JD039343 (2023).</div>
+<div id="ref-Kirk25_bowiealign" class="csl-entry" role="listitem">
+<div class="csl-left-margin">12. </div><div class="csl-right-inline">Kirk, J., Ahrer, E.-M., Claringbold, A. B., Zamyatina, M., Fisher, C., McCormack, M., Panwar, V., Powell, D., Taylor, J., Thorngren, D. P., Christie, D. A., Esparza-Borges, E., Tsai, S.-M., Alderson, L., Booth, R. A., Fairman, C., López-Morales, M., Mayne, N. J., Meech, A., Mollière, P., Owen, J. E., Penzlin, A. B. T., Sergeev, D. E., Valentine, D., Wakeford, H. R. &amp; Wheatley, P. J. <a href="https://doi.org/10.1093/mnras/staf208"><span>BOWIE-ALIGN</span>: <span>JWST</span> reveals hints of planetesimal accretion and complex sulphur chemistry in the atmosphere of the misaligned hot <span>Jupiter WASP-15b</span></a>. <em>Monthly Notices of the Royal Astronomical Society</em> <strong>537,</strong> 3027–3052 (2025).</div>
 </div>
-<div id="ref-2023GMD....16.5601S" class="csl-entry" role="listitem">
-<div class="csl-left-margin">13. </div><div class="csl-right-inline">Sergeev, D. E., Mayne, N. J., Bendall, T., Boutle, I. A., Brown, A., Kavčič, I., Kent, J., Kohary, K., Manners, J., Melvin, T., Olivier, E., Ragta, L. K., Shipway, B., Wakelin, J., Wood, N. &amp; Zerroukat, M. <a href="https://doi.org/10.5194/gmd-16-5601-2023"><span class="nocase">Simulations of idealised 3D atmospheric flows on terrestrial planets using LFRic-Atmosphere</span></a>. <em>Geoscientific Model Development</em> <strong>16,</strong> 5601–5626 (2023).</div>
+<div id="ref-Mak23_3d" class="csl-entry" role="listitem">
+<div class="csl-left-margin">13. </div><div class="csl-right-inline">Mak, M. T., Mayne, N. J., Sergeev, D. E., Manners, J., Eager-Nash, J. K., Arney, G., Hébrard, E. &amp; Kohary, K. <a href="https://doi.org/10.1029/2023JD039343"><span>3D Simulations</span> of the <span>Archean Earth Including Photochemical Haze Profiles</span></a>. <em>Journal of Geophysical Research: Atmospheres</em> <strong>128,</strong> e2023JD039343 (2023).</div>
 </div>
-<div id="ref-2023PSJ.....4...68C" class="csl-entry" role="listitem">
-<div class="csl-left-margin">14. </div><div class="csl-right-inline">Cohen, M., Bollasina, M. A., Sergeev, D. E., Palmer, P. I. &amp; Mayne, N. J. <a href="https://doi.org/10.3847/PSJ/acc9c4"><span class="nocase">Traveling Planetary-scale Waves Cause Cloud Variability on Tidally Locked Aquaplanets</span></a>. <strong>4,</strong> 68 (2023).</div>
+<div id="ref-Mak24_3d" class="csl-entry" role="listitem">
+<div class="csl-left-margin">14. </div><div class="csl-right-inline">Mak, M. T., Sergeev, D. E., Mayne, N., Banks, N., Eager-Nash, J., Manners, J., Arney, G., Hébrard, É. &amp; Kohary, K. <a href="https://doi.org/10.1093/mnras/stae741"><span>3D</span> simulations of <span>TRAPPIST-1e</span> with varying <span>CO2</span>, <span>CH4</span>, and haze profiles</a>. <em>Monthly Notices of the Royal Astronomical Society</em> <strong>529,</strong> 3971–3987 (2024).</div>
 </div>
-<div id="ref-2023JGRD..12837544E" class="csl-entry" role="listitem">
-<div class="csl-left-margin">15. </div><div class="csl-right-inline">Eager-Nash, J. K., Mayne, N. J., Nicholson, A. E., Prins, J. E., Young, O. C. F., Daines, S. J., Sergeev, D. E., Lambert, F. H., Manners, J., Boutle, I. A., Wolf, E. T., Kamp, I. E. E., Kohary, K. &amp; Lenton, T. M. <a href="https://doi.org/10.1029/2022JD037544"><span class="nocase">3D Climate Simulations of the Archean Find That Methane has a Strong Cooling Effect at High Concentrations</span></a>. <em>Journal of Geophysical Research (Atmospheres)</em> <strong>128,</strong> e2022JD037544 (2023).</div>
+<div id="ref-Mak25_impact" class="csl-entry" role="listitem">
+<div class="csl-left-margin">15. </div><div class="csl-right-inline">Mak, M. T., Sergeev, D., Mayne, N., Zamyatina, M., Steinrueck, M. E., Manners, J., Hébrard, É., Sing, D. K. &amp; Kohary, K. The <span>Impact</span> of <span>Different Haze Types</span> on the <span>Atmosphere</span> and <span>Observations</span> of <span>Hot Jupiters</span>: <span>3D Simulations</span> of <span>HD</span> 189733b, <span>HD</span> 209458b and <span>WASP-39b</span>. <em>Monthly Notices of the Royal Astronomical Society</em> staf1250 (2025). doi:<a href="https://doi.org/10.1093/mnras/staf1250">10.1093/mnras/staf1250</a></div>
 </div>
-<div id="ref-2023GMD....16..621M" class="csl-entry" role="listitem">
-<div class="csl-left-margin">16. </div><div class="csl-right-inline">McCulloch, D., Sergeev, D. E., Mayne, N., Bate, M., Manners, J., Boutle, I., Drummond, B. &amp; Kohary, K. <a href="https://doi.org/10.5194/gmd-16-621-2023"><span class="nocase">A modern-day Mars climate in the Met Office Unified Model: dry simulations</span></a>. <em>Geoscientific Model Development</em> <strong>16,</strong> 621–657 (2023).</div>
+<div id="ref-McCulloch23_modern" class="csl-entry" role="listitem">
+<div class="csl-left-margin">16. </div><div class="csl-right-inline">McCulloch, D., Sergeev, D. E., Mayne, N., Bate, M., Manners, J., Boutle, I., Drummond, B. &amp; Kohary, K. <a href="https://doi.org/10.5194/gmd-16-621-2023">A modern-day <span>Mars</span> climate in the <span>Met Office Unified Model</span>: Dry simulations</a>. <em>Geoscientific Model Development</em> <strong>16,</strong> 621–657 (2023).</div>
 </div>
-<div id="ref-2022MNRAS.517.2383B" class="csl-entry" role="listitem">
-<div class="csl-left-margin">17. </div><div class="csl-right-inline">Braam, M., Palmer, P. I., Decin, L., Ridgway, R. J., Zamyatina, M., Mayne, N. J., Sergeev, D. E. &amp; Abraham, N. L. <a href="https://doi.org/10.1093/mnras/stac2722"><span class="nocase">Lightning-induced chemistry on tidally-locked Earth-like exoplanets</span></a>. <strong>517,</strong> 2383–2402 (2022).</div>
+<div id="ref-Meech25_bowiealign" class="csl-entry" role="listitem">
+<div class="csl-left-margin">17. </div><div class="csl-right-inline">Meech, A., Claringbold, A. B., Ahrer, E.-M., Kirk, J., López-Morales, M., Taylor, J., Booth, R. A., Penzlin, A. B. T., Alderson, L., Christie, D. A., Esparza-Borges, E., Fairman, C., Mayne, N. J., McCormack, M., Owen, J. E., Panwar, V., Powell, D., Sergeev, D. E., Valentine, D., Wakeford, H. R., Wheatley, P. J. &amp; Zamyatina, M. <a href="https://doi.org/10.1093/mnras/staf530"><span>BOWIE-ALIGN</span>: Substellar metallicity and carbon depletion in the aligned <span>TrES-4b</span> with <span>JWST NIRSpec</span> transmission spectroscopy</a>. <em>Monthly Notices of the Royal Astronomical Society</em> <strong>539,</strong> 1381–1403 (2025).</div>
 </div>
-<div id="ref-2022PSJ.....3..261C" class="csl-entry" role="listitem">
-<div class="csl-left-margin">18. </div><div class="csl-right-inline">Christie, D. A., Lee, E. K. H., Innes, H., Noti, P. A., Charnay, B., Fauchez, T. J., Mayne, N. J., Deitrick, R., Ding, F., Greco, J. J., Hammond, M., Malsky, I., Mandell, A., Rauscher, E., Roman, M. T., Sergeev, D. E., Sohl, L., Steinrueck, M. E., Turbet, M., Wolf, E. T., Zamyatina, M. &amp; Carone, L. <a href="https://doi.org/10.3847/PSJ/ac9dfe"><span>CAMEMBERT: A Mini-Neptunes General Circulation Model Intercomparison, Protocol Version 1.0.A CUISINES Model Intercomparison Project</span></a>. <strong>3,</strong> 261 (2022).</div>
+<div id="ref-Natchiar24_reduction" class="csl-entry" role="listitem">
+<div class="csl-left-margin">18. </div><div class="csl-right-inline">Natchiar, S. R. M., Webb, M. J., Lambert, F. H., Vallis, G. K., Morcrette, C. J., Holloway, C. E., Sergeev, D. E. &amp; Boutle, I. <a href="https://doi.org/10.1029/2023MS003985">Reduction in the <span>Tropical High Cloud Fraction</span> in <span>Response</span> to an <span>Indirect Weakening</span> of the <span>Hadley Cell</span></a>. <em>Journal of Advances in Modeling Earth Systems</em> <strong>16,</strong> e2023MS003985 (2024).</div>
 </div>
-<div id="ref-2022PSJ.....3..214S" class="csl-entry" role="listitem">
-<div class="csl-left-margin">19. </div><div class="csl-right-inline">Sergeev, D. E., Lewis, N. T., Lambert, F. H., Mayne, N. J., Boutle, I. A., Manners, J. &amp; Kohary, K. <a href="https://doi.org/10.3847/PSJ/ac83be"><span class="nocase">Bistability of the Atmospheric Circulation on TRAPPIST-1e</span></a>. <strong>3,</strong> 214 (2022).</div>
+<div id="ref-Penzlin24_bowiealign" class="csl-entry" role="listitem">
+<div class="csl-left-margin">19. </div><div class="csl-right-inline">Penzlin, A. B. T., Booth, R. A., Kirk, J., Owen, J. E., Ahrer, E., Christie, D. A., Claringbold, A. B., Esparza-Borges, E., López-Morales, M., Mayne, N. J., McCormack, M., Meech, A., Panwar, V., Powell, D., Sergeev, D. E., Taylor, J., Wheatley, P. J. &amp; Zamyatina, M. <span>BOWIE-ALIGN</span>: <span>How</span> formation and migration histories of giant planets impact atmospheric compositions. <em>Monthly Notices of the Royal Astronomical Society</em> stae2362 (2024). doi:<a href="https://doi.org/10.1093/mnras/stae2362">10.1093/mnras/stae2362</a></div>
 </div>
-<div id="ref-2022PSJ.....3..213F" class="csl-entry" role="listitem">
-<div class="csl-left-margin">20. </div><div class="csl-right-inline">Fauchez, T. J., Villanueva, G. L., Sergeev, D. E., Turbet, M., Boutle, I. A., Tsigaridis, K., Way, M. J., Wolf, E. T., Domagal-Goldman, S. D., Forget, F., Haqq-Misra, J., Kopparapu, R. K., Manners, J. &amp; Mayne, N. J. <a href="https://doi.org/10.3847/PSJ/ac6cf1"><span class="nocase">The TRAPPIST-1 Habitable Atmosphere Intercomparison (THAI). III. Simulated Observables-the Return of the Spectrum</span></a>. <strong>3,</strong> 213 (2022).</div>
+<div id="ref-Renfrew19_igp" class="csl-entry" role="listitem">
+<div class="csl-left-margin">20. </div><div class="csl-right-inline">Renfrew, I. A., Pickart, R. S., Våge, K., Moore, G. W. K., Bracegirdle, T. J., Elvidge, A. D., Jeansson, E., Lachlan-Cope, T., McRaven, L. T., Papritz, L., Reuder, J., Sodemann, H., Terpstra, A., Waterman, S., Valdimarsson, H., Weiss, A., Almansi, M., Bahr, F., Brakstad, A., Barrell, C., Brooke, J. K., Brooks, B. J., Brooks, I. M., Brooks, M. E., Bruvik, E. M., Duscha, C., Fer, I., Golid, H. M., Hallerstig, M., Hessevik, I., Huang, J., Houghton, L., Jónsson, S., Jonassen, M., Jackson, K., Kvalsund, K., Kolstad, E. W., Konstali, K., Kristiansen, J., Ladkin, R., Lin, P., Macrander, A., Mitchell, A., Olafsson, H., Pacini, A., Payne, C., Palmason, B., Pérez-Hernández, M. D., Peterson, A. K., Petersen, G. N., Pisareva, M. N., Pope, J. O., Seidl, A., Semper, S., Sergeev, D., Skjelsvik, S., Søiland, H., Smith, D., Spall, M. A., Spengler, T., Touzeau, A., Tupper, G., Weng, Y., Williams, K. D., Yang, X. &amp; Zhou, S. <a href="https://doi.org/10.1175/BAMS-D-18-0217.1">The <span>Iceland Greenland Seas Project</span></a>. <em>Bulletin of the American Meteorological Society</em> <strong>100,</strong> 1795–1817 (2019).</div>
 </div>
-<div id="ref-2022PSJ.....3..211T" class="csl-entry" role="listitem">
-<div class="csl-left-margin">21. </div><div class="csl-right-inline">Turbet, M., Fauchez, T. J., Sergeev, D. E., Boutle, I. A., Tsigaridis, K., Way, M. J., Wolf, E. T., Domagal-Goldman, S. D., Forget, F., Haqq-Misra, J., Kopparapu, R. K., Lambert, F. H., Manners, J., Mayne, N. J. &amp; Sohl, L. <a href="https://doi.org/10.3847/PSJ/ac6cf0"><span class="nocase">The TRAPPIST-1 Habitable Atmosphere Intercomparison (THAI). I. Dry Cases-The Fellowship of the GCMs</span></a>. <strong>3,</strong> 211 (2022).</div>
+<div id="ref-Renfrew21_evaluation" class="csl-entry" role="listitem">
+<div class="csl-left-margin">21. </div><div class="csl-right-inline">Renfrew, I. A., Barrell, C., Elvidge, A. D., Brooke, J. K., Duscha, C., King, J. C., Kristiansen, J., Cope, T. L., Moore, G. W. K., Pickart, R. S., Reuder, J., Sandu, I., Sergeev, D., Terpstra, A., Våge, K. &amp; Weiss, A. <a href="https://doi.org/10.1002/qj.3941">An evaluation of surface meteorology and fluxes over the <span>Iceland</span> and <span>Greenland Seas</span> in <span>ERA5</span> reanalysis: <span>The</span> impact of sea ice distribution</a>. <em>Quarterly Journal of the Royal Meteorological Society</em> <strong>147,</strong> 691–712 (2021).</div>
 </div>
-<div id="ref-2022PSJ.....3..212S" class="csl-entry" role="listitem">
-<div class="csl-left-margin">22. </div><div class="csl-right-inline">Sergeev, D. E., Fauchez, T. J., Turbet, M., Boutle, I. A., Tsigaridis, K., Way, M. J., Wolf, E. T., Domagal-Goldman, S. D., Forget, F., Haqq-Misra, J., Kopparapu, R. K., Lambert, F. H., Manners, J. &amp; Mayne, N. J. <a href="https://doi.org/10.3847/PSJ/ac6cf2"><span>The TRAPPIST-1 Habitable Atmosphere Intercomparison (THAI). II. Moist Cases-The Two Waterworlds</span></a>. <strong>3,</strong> 212 (2022).</div>
+<div id="ref-Sergeev17_structure" class="csl-entry" role="listitem">
+<div class="csl-left-margin">22. </div><div class="csl-right-inline">Sergeev, D. E., Renfrew, I. A., Spengler, T. &amp; Dorling, S. R. <a href="https://doi.org/10.1002/qj.2911">Structure of a shear-line polar low</a>. <em>Quarterly Journal of the Royal Meteorological Society</em> <strong>143,</strong> 12–26 (2017).</div>
 </div>
-<div id="ref-2022ApJ...930..152C" class="csl-entry" role="listitem">
-<div class="csl-left-margin">23. </div><div class="csl-right-inline">Cohen, M., Bollasina, M. A., Palmer, P. I., Sergeev, D. E., Boutle, I. A., Mayne, N. J. &amp; Manners, J. <a href="https://doi.org/10.3847/1538-4357/ac625d"><span class="nocase">Longitudinally Asymmetric Stratospheric Oscillation on a Tidally Locked Exoplanet</span></a>. <strong>930,</strong> 152 (2022).</div>
+<div id="ref-Sergeev18_modification" class="csl-entry" role="listitem">
+<div class="csl-left-margin">23. </div><div class="csl-right-inline">Sergeev, D., Renfrew, I. A. &amp; Spengler, T. <a href="https://doi.org/10.1175/MWR-D-18-0086.1">Modification of <span>Polar Low Development</span> by <span>Orography</span> and <span>Sea Ice</span></a>. <em>Monthly Weather Review</em> <strong>146,</strong> 3325–3341 (2018).</div>
 </div>
-<div id="ref-2021JCli...34.4567T" class="csl-entry" role="listitem">
-<div class="csl-left-margin">24. </div><div class="csl-right-inline">Terpstra, A., Renfrew, I. A. &amp; Sergeev, D. E. <a href="https://doi.org/10.1175/JCLI-D-20-0595.1"><span class="nocase">Characteristics of Cold-Air Outbreak Events and Associated Polar Mesoscale Cyclogenesis over the North Atlantic Region</span></a>. <em>Journal of Climate</em> <strong>34,</strong> 4567–4584 (2021).</div>
+<div id="ref-Sergeev20_atmospheric" class="csl-entry" role="listitem">
+<div class="csl-left-margin">24. </div><div class="csl-right-inline">Sergeev, D. E., Lambert, F. H., Mayne, N. J., Boutle, I. A., Manners, J. &amp; Kohary, K. <a href="https://doi.org/10.3847/1538-4357/ab8882">Atmospheric <span>Convection Plays</span> a <span>Key Role</span> in the <span>Climate</span> of <span>Tidally Locked Terrestrial Exoplanets</span>: <span>Insights</span> from <span class="nocase">High-resolution Simulations</span></a>. <em>The Astrophysical Journal</em> <strong>894,</strong> 84 (2020).</div>
 </div>
-<div id="ref-2021PSJ.....2..106F" class="csl-entry" role="listitem">
-<div class="csl-left-margin">25. </div><div class="csl-right-inline">Fauchez, T. J., Turbet, M., Sergeev, D. E., Mayne, N. J., Spiga, A., Sohl, L., Saxena, P., Deitrick, R., Gilli, G., Domagal-Goldman, S. D., Forget, F., Consentino, R., Barnes, R., Haqq-Misra, J., Way, M. J., Wolf, E. T., Olson, S., Crouse, J. S., Janin, E., Bolmont, E., Leconte, J., Chaverot, G., Jaziri, Y., Tsigaridis, K., Yang, J., Pidhorodetska, D., Kopparapu, R. K., Chen, H., Boutle, I. A., Lefevre, M., Charnay, B., Burnett, A., Cabra, J. &amp; Bouldin, N. <a href="https://doi.org/10.3847/PSJ/abf4df"><span>TRAPPIST Habitable Atmosphere Intercomparison (THAI) Workshop Report</span></a>. <strong>2,</strong> 106 (2021).</div>
+<div id="ref-Sergeev22_bistability" class="csl-entry" role="listitem">
+<div class="csl-left-margin">25. </div><div class="csl-right-inline">Sergeev, D. E., Lewis, N. T., Lambert, F. H., Mayne, N. J., Boutle, I. A., Manners, J. &amp; Kohary, K. <a href="https://doi.org/10.3847/PSJ/ac83be">Bistability of the <span>Atmospheric Circulation</span> on <span>TRAPPIST-1e</span></a>. <em>The Planetary Science Journal</em> <strong>3,</strong> 214 (2022).</div>
 </div>
-<div id="ref-2021QJRMS.147..691R" class="csl-entry" role="listitem">
-<div class="csl-left-margin">26. </div><div class="csl-right-inline">Renfrew, I. A., Barrell, C., Elvidge, A. D., Brooke, J. K., Duscha, C., King, J. C., Kristiansen, J., Cope, T. L., Moore, G. W. K., Pickart, R. S., Reuder, J., Sandu, I., Sergeev, D., Terpstra, A., Våge, K. &amp; Weiss, A. <a href="https://doi.org/10.1002/qj.3941"><span class="nocase">An evaluation of surface meteorology and fluxes over the Iceland and Greenland Seas in ERA5 reanalysis: The impact of sea ice distribution</span></a>. <em>Quarterly Journal of the Royal Meteorological Society</em> <strong>147,</strong> 691–712 (2021).</div>
+<div id="ref-Sergeev22_thai" class="csl-entry" role="listitem">
+<div class="csl-left-margin">26. </div><div class="csl-right-inline">Sergeev, D. E., Fauchez, T. J., Turbet, M., Boutle, I. A., Tsigaridis, K., Way, M. J., Wolf, E. T., Domagal-Goldman, S. D., Forget, F., Haqq-Misra, J., Kopparapu, R. K., Lambert, F. H., Manners, J. &amp; Mayne, N. J. <a href="https://doi.org/10.3847/PSJ/ac6cf2">The <span>TRAPPIST-1 Habitable Atmosphere Intercomparison</span> (<span>THAI</span>). <span>II</span>. <span>Moist Cases</span>—<span>The Two Waterworlds</span></a>. <em>The Planetary Science Journal</em> <strong>3,</strong> 212 (2022).</div>
 </div>
-<div id="ref-2020A&amp;A...639A..99E" class="csl-entry" role="listitem">
-<div class="csl-left-margin">27. </div><div class="csl-right-inline">Eager-Nash, J. K., Reichelt, D. J., Mayne, N. J., Hugo Lambert, F., Sergeev, D. E., Ridgway, R. J., Manners, J., Boutle, I. A., Lenton, T. M. &amp; Kohary, K. <a href="https://doi.org/10.1051/0004-6361/202038089"><span class="nocase">Implications of different stellar spectra for the climate of tidally locked Earth-like exoplanets</span></a>. <strong>639,</strong> A99 (2020).</div>
+<div id="ref-Sergeev23_simulations" class="csl-entry" role="listitem">
+<div class="csl-left-margin">27. </div><div class="csl-right-inline">Sergeev, D. E., Mayne, N. J., Bendall, T., Boutle, I. A., Brown, A., Kavčič, I., Kent, J., Kohary, K., Manners, J., Melvin, T., Olivier, E., Ragta, L. K., Shipway, B., Wakelin, J., Wood, N. &amp; Zerroukat, M. <a href="https://doi.org/10.5194/gmd-16-5601-2023">Simulations of idealised <span>3D</span> atmospheric flows on terrestrial planets using <span>LFRic-Atmosphere</span></a>. <em>Geoscientific Model Development</em> <strong>16,</strong> 5601–5626 (2023).</div>
 </div>
-<div id="ref-2020ApJ...894...84S" class="csl-entry" role="listitem">
-<div class="csl-left-margin">28. </div><div class="csl-right-inline">Sergeev, D. E., Lambert, F. H., Mayne, N. J., Boutle, I. A., Manners, J. &amp; Kohary, K. <a href="https://doi.org/10.3847/1538-4357/ab8882"><span class="nocase">Atmospheric Convection Plays a Key Role in the Climate of Tidally Locked Terrestrial Exoplanets: Insights from High-resolution Simulations</span></a>. <strong>894,</strong> 84 (2020).</div>
+<div id="ref-Sergeev24_impact" class="csl-entry" role="listitem">
+<div class="csl-left-margin">28. </div><div class="csl-right-inline">Sergeev, D. E., Boutle, I. A., Lambert, F. H., Mayne, N. J., Bendall, T., Kohary, K., Olivier, E. &amp; Shipway, B. <a href="https://doi.org/10.3847/1538-4357/ad4ecd">The <span>Impact</span> of the <span>Explicit Representation</span> of <span>Convection</span> on the <span>Climate</span> of a <span>Tidally Locked Planet</span> in <span class="nocase">Global Stretched-mesh Simulations</span></a>. <em>The Astrophysical Journal</em> <strong>970,</strong> 7 (2024).</div>
 </div>
-<div id="ref-2020ApJ...892L..33J" class="csl-entry" role="listitem">
-<div class="csl-left-margin">29. </div><div class="csl-right-inline">Joshi, M. M., Elvidge, A. D., Wordsworth, R. &amp; Sergeev, D. <a href="https://doi.org/10.3847/2041-8213/ab7fb3"><span class="nocase">Earth’s Polar Night Boundary Layer as an Analog for Dark Side Inversions on Synchronously Rotating Terrestrial Exoplanets</span></a>. <strong>892,</strong> L33 (2020).</div>
+<div id="ref-Sergeev25_lightning" class="csl-entry" role="listitem">
+<div class="csl-left-margin">29. </div><div class="csl-right-inline">Sergeev, D. E., McDermott, J. W., Woods, L., Braam, M., Eager-Nash, J. K. &amp; Boutle, I. A. <a href="https://doi.org/10.1093/mnras/staf1196">Lightning activity on a tidally locked terrestrial exoplanet in storm-resolving simulations for a range of surface pressures</a>. <em>Monthly Notices of the Royal Astronomical Society</em> <strong>541,</strong> 3155–3166 (2025).</div>
 </div>
-<div id="ref-2019BAMS..100.1795R" class="csl-entry" role="listitem">
-<div class="csl-left-margin">30. </div><div class="csl-right-inline">Renfrew, I. A., Pickart, R. S., Våge, K., Moore, G. W. K., Bracegirdle, T. J., Elvidge, A. D., Jeansson, E., Lachlan-Cope, T., McRaven, L. T., Papritz, L., Reuder, J., Sodemann, H., Terpstra, A., Waterman, S., Valdimarsson, H., Weiss, A., Almansi, M., Bahr, F., Brakstad, A., Barrell, C., Brooke, J. K., Brooks, B. J., Brooks, I. M., Brooks, M. E., Bruvik, E. M., Duscha, C., Fer, I., Golid, H. M., Hallerstig, M., Hessevik, I., Huang, J., Houghton, L., Jónsson, S., Jonassen, M., Jackson, K., Kvalsund, K., Kolstad, E. W., Konstali, K., Kristiansen, J., Ladkin, R., Lin, P., Macrander, A., Mitchell, A., Olafsson, H., Pacini, A., Payne, C., Palmason, B., Pérez-Hernández, M. D., Peterson, A. K., Petersen, G. N., Pisareva, M. N., Pope, J. O., Seidl, A., Semper, S., Sergeev, D., Skjelsvik, S., Søiland, H., Smith, D., Spall, M. A., Spengler, T., Touzeau, A., Tupper, G., Weng, Y., Williams, K. D., Yang, X. &amp; Zhou, S. <a href="https://doi.org/10.1175/BAMS-D-18-0217.1"><span>The Iceland Greenland Seas Project</span></a>. <em>Bulletin of the American Meteorological Society</em> <strong>100,</strong> 1795–1817 (2019).</div>
+<div id="ref-Shestakova18_observations" class="csl-entry" role="listitem">
+<div class="csl-left-margin">30. </div><div class="csl-right-inline">Shestakova, A. A., Toropov, P. A., Stepanenko, V. M., Sergeev, D. E. &amp; Repina, I. A. <a href="https://doi.org/10.1016/j.dynatmoce.2018.07.001">Observations and modelling of downslope windstorm in <span>Novorossiysk</span></a>. <em>Dynamics of Atmospheres and Oceans</em> <strong>83,</strong> 83–99 (2018).</div>
 </div>
-<div id="ref-2018MWRv..146.3325S" class="csl-entry" role="listitem">
-<div class="csl-left-margin">31. </div><div class="csl-right-inline">Sergeev, D., Renfrew, I. A. &amp; Spengler, T. <a href="https://doi.org/10.1175/MWR-D-18-0086.1"><span class="nocase">Modification of Polar Low Development by Orography and Sea Ice</span></a>. <em>Monthly Weather Review</em> <strong>146,</strong> 3325–3341 (2018).</div>
+<div id="ref-Spengler16_high" class="csl-entry" role="listitem">
+<div class="csl-left-margin">31. </div><div class="csl-right-inline">Spengler, T., Renfrew, I. A., Terpstra, A., Tjernström, M., Screen, J., Brooks, I. M., Carleton, A., Chechin, D., Chen, L., Doyle, J., Esau, I., Hezel, P. J., Jung, T., Kohyama, T., Lüpkes, C., McCusker, K. E., Nygård, T., Sergeev, D., Shupe, M. D., Sodemann, H. &amp; Vihma, T. <a href="https://doi.org/10.1175/BAMS-D-15-00302.1">High-<span>Latitude Dynamics</span> of <span>Atmosphere</span>–<span>Ice</span>–<span>Ocean Interactions</span></a>. <em>Bulletin of the American Meteorological Society</em> <strong>97,</strong> ES179–ES182 (2016).</div>
 </div>
-<div id="ref-2018DyAtO..83...83S" class="csl-entry" role="listitem">
-<div class="csl-left-margin">32. </div><div class="csl-right-inline">Shestakova, A. A., Toropov, P. A., Stepanenko, V. M., Sergeev, D. E. &amp; Repina, I. A. <a href="https://doi.org/10.1016/j.dynatmoce.2018.07.001"><span class="nocase">Observations and modelling of downslope windstorm in Novorossiysk</span></a>. <em>Dynamics of Atmospheres and Oceans</em> <strong>83,</strong> 83–99 (2018).</div>
+<div id="ref-Terpstra21_characteristics" class="csl-entry" role="listitem">
+<div class="csl-left-margin">32. </div><div class="csl-right-inline">Terpstra, A., Renfrew, I. A. &amp; Sergeev, D. E. <a href="https://doi.org/10.1175/JCLI-D-20-0595.1">Characteristics of <span>Cold Air Outbreak</span> events and associated <span>Polar Mesoscale Cyclogenesis</span> over the <span>North Atlantic</span> region</a>. <em>Journal of Climate</em> <strong>-1,</strong> 1–52 (2021).</div>
 </div>
-<div id="ref-2017QJRMS.143...12S" class="csl-entry" role="listitem">
-<div class="csl-left-margin">33. </div><div class="csl-right-inline">Sergeev, D. E., Renfrew, I. A., Spengler, T. &amp; Dorling, S. R. <a href="https://doi.org/10.1002/qj.2911"><span class="nocase">Structure of a shear-line polar low</span></a>. <em>Quarterly Journal of the Royal Meteorological Society</em> <strong>143,</strong> 12–26 (2017).</div>
+<div id="ref-Turbet22_thai" class="csl-entry" role="listitem">
+<div class="csl-left-margin">33. </div><div class="csl-right-inline">Turbet, M., Fauchez, T. J., Sergeev, D. E., Boutle, I. A., Tsigaridis, K., Way, M. J., Wolf, E. T., Domagal-Goldman, S. D., Forget, F., Haqq-Misra, J., Kopparapu, R. K., Lambert, F. H., Manners, J., Mayne, N. J. &amp; Sohl, L. <a href="https://doi.org/10.3847/PSJ/ac6cf0">The <span>TRAPPIST-1 Habitable Atmosphere Intercomparison</span> (<span>THAI</span>). <span>I</span>. <span>Dry Cases</span>—<span>The Fellowship</span> of the <span>GCMs</span></a>. <em>The Planetary Science Journal</em> <strong>3,</strong> 211 (2022).</div>
 </div>
-<div id="ref-2016BAMS...97S.179S" class="csl-entry" role="listitem">
-<div class="csl-left-margin">34. </div><div class="csl-right-inline">Spengler, T., Renfrew, I. A., Terpstra, A., Tjernström, M., Screen, J., Brooks, I. M., Carleton, A., Chechin, D., Chen, L., Doyle, J., Esau, I., Hezel, P. J., Jung, T., Kohyama, T., Lüpkes, C., McCusker, K. E., Nygård, T., Sergeev, D., Shupe, M. D., Sodemann, H. &amp; Vihma, T. <a href="https://doi.org/10.1175/BAMS-D-15-00302.1"><span class="nocase">High-Latitude Dynamics of Atmosphere-Ice-Ocean Interactions</span></a>. <em>Bulletin of the American Meteorological Society</em> <strong>97,</strong> ES179–ES182 (2016).</div>
+<div id="ref-Villanueva24_modeling" class="csl-entry" role="listitem">
+<div class="csl-left-margin">34. </div><div class="csl-right-inline">Villanueva, G. L., Fauchez, T. J., Kofman, V., Alei, E., Lee, E. K. H., Janin, E., Himes, M. D., Leconte, J., Leung, M., Faggi, S., Mak, M. T., Sergeev, D. E., Kozakis, T., Manners, J., Mayne, N., Schwieterman, E. W., Howe, A. R. &amp; Batalha, N. <a href="https://doi.org/10.3847/PSJ/ad2681">Modeling <span>Atmospheric Lines</span> by the <span>Exoplanet Community</span> (<span>MALBEC</span>) <span>Version</span> 1.0: <span>A CUISINES Radiative Transfer Intercomparison Project</span></a>. <em>The Planetary Science Journal</em> <strong>5,</strong> 64 (2024).</div>
 </div>
-<div id="ref-2014IzAOP..50..225E" class="csl-entry" role="listitem">
-<div class="csl-left-margin">35. </div><div class="csl-right-inline">Eliseev, A. V. &amp; Sergeev, D. E. <a href="https://doi.org/10.1134/S0001433814020030"><span class="nocase">Impact of subgrid-scale vegetation heterogeneity on the simulation of carbon-cycle characteristics</span></a>. <em>Izvestiya Atmospheric and Oceanic Physics</em> <strong>50,</strong> 225–235 (2014).</div>
+<div id="ref-Zamyatina24_quenchingdriven" class="csl-entry" role="listitem">
+<div class="csl-left-margin">35. </div><div class="csl-right-inline">Zamyatina, M., Christie, D. A., Hébrard, E., Mayne, N. J., Radica, M., Taylor, J., Baskett, H., Moore, B., Lils, C., Sergeev, D. E., Ahrer, E.-M., Manners, J., Kohary, K. &amp; Feinstein, A. D. <a href="https://doi.org/10.1093/mnras/stae600">Quenching-driven equatorial depletion and limb asymmetries in hot <span>Jupiter</span> atmospheres: <span>WASP-96b</span> example</a>. <em>Monthly Notices of the Royal Astronomical Society</em> <strong>529,</strong> 1776–1801 (2024).</div>
 </div>
 </div>
 
@@ -364,7 +339,7 @@ window.Quarto = {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/dennissergeev\.github\.io\/demo\/");
+        var filterRegex = new RegExp("https:\/\/dennissergeev\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

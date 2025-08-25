@@ -1,1 +1,1 @@
-Sitemap: https://dennissergeev.github.io/demo/sitemap.xml
+Sitemap: https://dennissergeev.github.io/sitemap.xml
