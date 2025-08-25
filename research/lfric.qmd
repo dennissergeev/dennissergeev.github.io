@@ -12,7 +12,7 @@ In my 2023 study[@Sergeev23_simulations], I showed that LFRic can reproduce a nu
 I then focused on the impact of convection on the planetary climate in a global stretched-mesh simulation[@Sergeev24_impact].
 This work was the first application of a stretched-mesh global model to exoplanets and has a great potential for studying convection at a reduced computational cost.
 
-Currently, I am working on adapting LFRic to hot Jupiters and sub-Neptunes.
+Currently, I am working on adapting LFRic to hot Jupiters and sub-Neptunes, as well as the solar system ice giants.
 
 ::: {#refs}
 :::

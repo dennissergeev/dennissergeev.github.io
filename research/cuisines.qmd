@@ -9,12 +9,13 @@ csl: ../assets/nature-no-et-al.csl
 Exoplanet models are complex pieces of software that often require significant computational resources.
 I collaborate with researchers around the world to systematically compare and benchmark different models, with the ultimate goal to get more robust and reproducible modelling results.
 This is done via so-called model intercomparison projects (MIPs).
-While there is a long history of MIPs in the Earth climate community, a more organised effort to do this for exoplanets has begun recently thanks to [CUISINES](https://nexss.info/cuisines), an international model intercomparison framework.
-The pilot project of CUISINES was the TRAPPIST-1 Habitable Atmosphere Intercomparison (THAI), which resulted in three major publications, focusing on the 'dry planet' simulations[@Turbet22_thai], 'aqua-planet' simulations[@Sergeev22_thai] and its observability[@Fauchez22_thai].
-Following the TRAPPIST-1 Habitable Atmosphere Intercomparison workshop (2020 September 14–16), we also published a quasi-review[@Fauchez21_workshop] of exoplanet climate models and parameterizations of the atmospheric processes on terrestrial exoplanets, model advancements, and limitations, as well as direction for future model development.
+While there is a long history of MIPs in the Earth climate community, a more organised effort to do this for exoplanets has begun thanks to [CUISINES](https://nexss.info/cuisines), an international model intercomparison framework.
+The pilot project of CUISINES was the TRAPPIST-1 Habitable Atmosphere Intercomparison (THAI), which focused on scenarios for a potentially habitable climate on an Earth-size exoplanet TRAPPIST-1e, a primary target for atmospheric characterisation.
+THAI resulted in three major publications: (1) 'dry planet' simulations[@Turbet22_thai], (2) 'aqua-planet' simulations[@Sergeev22_thai] and (3) atmosphere detectability[@Fauchez22_thai].
+Following the TRAPPIST-1 Habitable Atmosphere Intercomparison workshop in 2020, we published a review[@Fauchez21_workshop] of exoplanet climate models and parameterizations of the atmospheric processes on terrestrial exoplanets, with a discussion on the recent model advancements and limitations, as well as directions for future model development.
 
-Since THAI, ten more exoplanet MIPs have started focusing on a variety of model types and exoplanet targets.
-I am contributing to the CUISINES MIPs such as those for 3D sub-Neptune climate models [@Christie22_camembert], 1D radiative transfer models[@Villanueva24_modeling], 3D hot Jupiter climate models and others.
+Since THAI, ten more exoplanet MIPs for a variety of model types and exoplanet targets have started.
+I am contributing to several CUISINES MIPs such as those for 3D sub-Neptune climate models [@Christie22_camembert], 1D radiative transfer models[@Villanueva24_modeling], 3D hot Jupiter climate models and others.
 Together with Thomas Fauchez at NASA, I am a co-chair of CUISINES (since 2024).
 
 ![](figures/CUISINES_logo_all_2024.png){width=100% alt="Central logo for CUISINES, featuring a serving tray with planets arranged in a line, surrounded by ten circular badges representing different exoplanet model intercomparison projects. Each badge displays a food item and project name such as MOCHA, FILLET, SAMOSA, CREME, THAI, CAMEMBERT, COD ACCRA, PIE, RISOTTO, and MALBEC. The central badge reads CUISINES and Climates Using Interactive Suites of Intercomparison: Needed for Exoplanet Studies."}

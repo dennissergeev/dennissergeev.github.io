@@ -15,7 +15,7 @@ This allows us to simulate both cloudy and cloud-free patches of the atmosphere 
 These cloud-related climate mechanisms may also affect the preferred state of the global wind structure on a tidally-locked exoplanet, which may be dependent on model components or even initial conditions of the model run[@Sergeev22_bistability].
 It is therefore crucial to perform multi-model climate studies for exoplanets and systematically [compare 3D climate models](cuisines.qmd).
 
-In a series of papers led by Mei Ting (Martha) Mak, we used the Met Office's Unified Model to simulate the imact of haze on the climate of the Archean Earth (2.5-4 billion years ago)[@Mak23_3d], a tidally locked rocky exoplanet TRAPPIST-1e[@Mak24_3d] and three different hot Jupiters (HD 189733b, HD 209458b and WASP-39b)[@Mak25_impact].
+In a series of papers led by [Mei Ting (Martha) Mak](https://www.linkedin.com/in/mei-ting-mak-92246a189), we used the Met Office's Unified Model to simulate the imact of haze on the climate of the Archean Earth (2.5-4 billion years ago)[@Mak23_3d], a tidally locked rocky exoplanet TRAPPIST-1e[@Mak24_3d] and three different hot Jupiters (HD 189733b, HD 209458b and WASP-39b)[@Mak25_impact].
 For the Archean Earth, we showed[@Mak23_3d] that a thin layer of haze leads to warming of the global climate due to the change of abundance and location of water vapor and clouds.
 A thick aerosol layer, on the other hand, cools down the climate rapidly and makes it uninhabitable.
 For TRAPPIST-1e, we varied the concentration of carbon dioxide and methane, resulting in a different amount of photochemical haze, which ultimately resulted in different global circulation and cloud regimes[@Mak24_3d].
@@ -23,7 +23,7 @@ For hot Jupiters[@Mak25_impact], we demonstrated that the equatorial jet determi
 Our work also suggests that an observed increase in transit depth over the morning terminator across the ultra-violet and optical wavelength regime could serve as a strong indicator of the presence of haze on hot Jupiters.
 
 Mineral dust is an important component of the atmosphere - be it on Earth or on its solar system neighbour, Mars.
-In a 2023 paper[@McCulloch23_modern] led by Danny McCulloch, we applied the Unified Model to the climate of modern Mars.
+In a 2023 paper[@McCulloch23_modern] led by [Danny McCulloch](https://www.linkedin.com/in/dannymcculloch), we applied the Unified Model to the climate of modern Mars.
 We focused on the impact of dust on the large-scale wind and temperature structure.
 Our simulations demonstrated how dust, through its interaction with stellar/thermal heating/cooling, accelerates the winds and creates an isothermal layer in mid-latitudes during the dusty season.
 A PhD project is currently under way to adapt the next-generation atmospheric model of the Met Office, LFRic[@Sergeev23_simulations], to the climate of Mars.
