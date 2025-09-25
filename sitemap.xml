@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://dennissergeev.github.io/index.html</loc>
-    <lastmod>2025-09-24T06:42:06.576Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dennissergeev.github.io/research/convection.html</loc>
-    <lastmod>2025-09-24T06:42:06.577Z</lastmod>
+    <loc>https://dennissergeev.github.io/research/lfric.html</loc>
+    <lastmod>2025-09-25T06:42:36.912Z</lastmod>
   </url>
   <url>
     <loc>https://dennissergeev.github.io/research/lightning.html</loc>
-    <lastmod>2025-09-24T06:42:06.605Z</lastmod>
+    <lastmod>2025-09-25T06:42:36.912Z</lastmod>
   </url>
   <url>
-    <loc>https://dennissergeev.github.io/research/cuisines.html</loc>
-    <lastmod>2025-09-24T06:42:06.577Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dennissergeev.github.io/publications.html</loc>
-    <lastmod>2025-09-24T06:42:06.576Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dennissergeev.github.io/research/lfric.html</loc>
-    <lastmod>2025-09-24T06:42:06.605Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dennissergeev.github.io/research/index.html</loc>
-    <lastmod>2025-09-24T06:42:06.605Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dennissergeev.github.io/research/aerosols.html</loc>
-    <lastmod>2025-09-24T06:42:06.577Z</lastmod>
+    <loc>https://dennissergeev.github.io/research/convection.html</loc>
+    <lastmod>2025-09-25T06:42:36.883Z</lastmod>
   </url>
   <url>
     <loc>https://dennissergeev.github.io/about.html</loc>
-    <lastmod>2025-09-24T06:42:06.573Z</lastmod>
+    <lastmod>2025-09-25T06:42:36.879Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dennissergeev.github.io/index.html</loc>
+    <lastmod>2025-09-25T06:42:36.883Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dennissergeev.github.io/publications.html</loc>
+    <lastmod>2025-09-25T06:42:36.883Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dennissergeev.github.io/research/index.html</loc>
+    <lastmod>2025-09-25T06:42:36.912Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dennissergeev.github.io/research/aerosols.html</loc>
+    <lastmod>2025-09-25T06:42:36.883Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dennissergeev.github.io/research/cuisines.html</loc>
+    <lastmod>2025-09-25T06:42:36.883Z</lastmod>
   </url>
 </urlset>
