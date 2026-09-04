@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://dennissergeev.github.io/publications.html</loc>
-    <lastmod>2026-09-03T11:34:12.347Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dennissergeev.github.io/research/index.html</loc>
-    <lastmod>2026-09-03T11:34:12.376Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dennissergeev.github.io/research/lfric.html</loc>
-    <lastmod>2026-09-03T11:34:12.376Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dennissergeev.github.io/research/cuisines.html</loc>
-    <lastmod>2026-09-03T11:34:12.348Z</lastmod>
-  </url>
-  <url>
     <loc>https://dennissergeev.github.io/about.html</loc>
-    <lastmod>2026-09-03T11:34:12.343Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dennissergeev.github.io/research/convection.html</loc>
-    <lastmod>2026-09-03T11:34:12.348Z</lastmod>
+    <lastmod>2026-09-04T11:36:01.243Z</lastmod>
   </url>
   <url>
     <loc>https://dennissergeev.github.io/research/aerosols.html</loc>
-    <lastmod>2026-09-03T11:34:12.347Z</lastmod>
+    <lastmod>2026-09-04T11:36:01.247Z</lastmod>
   </url>
   <url>
-    <loc>https://dennissergeev.github.io/research/lightning.html</loc>
-    <lastmod>2026-09-03T11:34:12.376Z</lastmod>
+    <loc>https://dennissergeev.github.io/research/convection.html</loc>
+    <lastmod>2026-09-04T11:36:01.248Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dennissergeev.github.io/research/index.html</loc>
+    <lastmod>2026-09-04T11:36:01.275Z</lastmod>
   </url>
   <url>
     <loc>https://dennissergeev.github.io/index.html</loc>
-    <lastmod>2026-09-03T11:34:12.347Z</lastmod>
+    <lastmod>2026-09-04T11:36:01.247Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dennissergeev.github.io/publications.html</loc>
+    <lastmod>2026-09-04T11:36:01.247Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dennissergeev.github.io/research/cuisines.html</loc>
+    <lastmod>2026-09-04T11:36:01.248Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dennissergeev.github.io/research/lfric.html</loc>
+    <lastmod>2026-09-04T11:36:01.276Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dennissergeev.github.io/research/lightning.html</loc>
+    <lastmod>2026-09-04T11:36:01.276Z</lastmod>
   </url>
 </urlset>
